@@ -58,7 +58,7 @@ The namespace contains the following sub-namespaces:
 <div class="namespace-toc">
 
 -   <span class="signature">[`assert`][@stdlib/math/base/assert]</span><span class="delimiter">: </span><span class="description">standard library basic mathematical assertion utilities.</span>
--   <span class="signature">[`complex`][@stdlib/math/base/complex]</span><span class="delimiter">: </span><span class="description">standard library base complex number math functions.</span>
+-   <span class="signature">[`ops`][@stdlib/math/base/ops]</span><span class="delimiter">: </span><span class="description">standard library base math operators.</span>
 -   <span class="signature">[`special`][@stdlib/math/base/special]</span><span class="delimiter">: </span><span class="description">standard library base special math functions.</span>
 -   <span class="signature">[`tools`][@stdlib/math/base/tools]</span><span class="delimiter">: </span><span class="description">standard library basic mathematical tools.</span>
 -   <span class="signature">[`utils`][@stdlib/math/base/utils]</span><span class="delimiter">: </span><span class="description">standard library basic mathematical utilities.</span>
@@ -157,7 +157,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/math/base/assert]: https://github.com/stdlib-js/math-base-assert
 
-[@stdlib/math/base/complex]: https://github.com/stdlib-js/math-base-complex
+[@stdlib/math/base/ops]: https://github.com/stdlib-js/math-base-ops
 
 [@stdlib/math/base/special]: https://github.com/stdlib-js/math-base-special
 
