@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library math base implementations.
+> Base (i.e., lower-level) math functions.
 
 <section class="installation">
 
@@ -44,14 +44,14 @@ var math = require( '@stdlib/math-base' );
 
 #### math
 
-Standard library base math.
+Namespace containing "base" (i.e., lower-level) math functions.
 
 ```javascript
 var ns = math;
 // returns {...}
 ```
 
-The namespace contains the following sub-namespaces:
+The namespace has the following sub-namespaces:
 
 <!-- <toc pattern="*"> -->
 
@@ -97,6 +97,16 @@ console.log( objectKeys( ns ) );
 </section>
 
 <!-- /.examples -->
+
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
 <section class="main-repo" >
