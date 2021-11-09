@@ -20,7 +20,7 @@ limitations under the License.
 
 # Base Math
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Base (i.e., lower-level) math functions.
 
@@ -57,11 +57,11 @@ The namespace has the following sub-namespaces:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`assert`][@stdlib/math/base/assert]</span><span class="delimiter">: </span><span class="description">standard library basic mathematical assertion utilities.</span>
--   <span class="signature">[`ops`][@stdlib/math/base/ops]</span><span class="delimiter">: </span><span class="description">standard library base math operators.</span>
--   <span class="signature">[`special`][@stdlib/math/base/special]</span><span class="delimiter">: </span><span class="description">standard library base special math functions.</span>
--   <span class="signature">[`tools`][@stdlib/math/base/tools]</span><span class="delimiter">: </span><span class="description">standard library basic mathematical tools.</span>
--   <span class="signature">[`utils`][@stdlib/math/base/utils]</span><span class="delimiter">: </span><span class="description">standard library basic mathematical utilities.</span>
+-   <span class="signature">[`assert`][@stdlib/math/base/assert]</span><span class="delimiter">: </span><span class="description">base math assertion utilities.</span>
+-   <span class="signature">[`ops`][@stdlib/math/base/ops]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) math operators.</span>
+-   <span class="signature">[`special`][@stdlib/math/base/special]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) special math functions.</span>
+-   <span class="signature">[`tools`][@stdlib/math/base/tools]</span><span class="delimiter">: </span><span class="description">base math tools.</span>
+-   <span class="signature">[`utils`][@stdlib/math/base/utils]</span><span class="delimiter">: </span><span class="description">base math utilities.</span>
 
 </div>
 
@@ -151,8 +151,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/math-base.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/math-base/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
