@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Base (i.e., lower-level) math functions.",
   "license": "Apache-2.0",
   "author": {
@@ -176,8 +176,10 @@
     "@stdlib/math-base-special-acoth": "^0.0.x",
     "@stdlib/math-base-special-acovercos": "^0.0.x",
     "@stdlib/math-base-special-acoversin": "^0.0.x",
+    "@stdlib/math-base-special-acsc": "^0.0.x",
     "@stdlib/math-base-special-ahavercos": "^0.0.x",
     "@stdlib/math-base-special-ahaversin": "^0.0.x",
+    "@stdlib/math-base-special-asech": "^0.0.x",
     "@stdlib/math-base-special-asin": "^0.0.x",
     "@stdlib/math-base-special-asinh": "^0.0.x",
     "@stdlib/math-base-special-atan": "^0.0.x",
@@ -234,6 +236,7 @@
     "@stdlib/math-base-special-cosh": "^0.0.x",
     "@stdlib/math-base-special-cosm1": "^0.0.x",
     "@stdlib/math-base-special-cospi": "^0.0.x",
+    "@stdlib/math-base-special-cot": "^0.0.x",
     "@stdlib/math-base-special-covercos": "^0.0.x",
     "@stdlib/math-base-special-coversin": "^0.0.x",
     "@stdlib/math-base-special-cphase": "^0.0.x",
