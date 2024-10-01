@@ -312,6 +312,7 @@
     "@stdlib/math-base-special-erfc": "^0.2.4",
     "@stdlib/math-base-special-erfcinv": "^0.2.3",
     "@stdlib/math-base-special-erfcx": "^0.2.2",
+    "@stdlib/math-base-special-erfcx-package.json": "github:stdlib-js/math-base-special-erfcx-package.json#main",
     "@stdlib/math-base-special-erfinv": "^0.3.0",
     "@stdlib/math-base-special-exp": "^0.2.4",
     "@stdlib/math-base-special-exp10": "^0.2.3",
