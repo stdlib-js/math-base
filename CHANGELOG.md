@@ -4,11 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-12-01)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="math-base-assert-is-evenf-unreleased">
+
+#### [@stdlib/math/base/assert/is-evenf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-evenf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="math-base-assert-is-integerf-unreleased">
 
@@ -99,6 +121,72 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-ops-cdiv-unreleased">
+
+#### [@stdlib/math/base/ops/cdiv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cdiv)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-cneg-unreleased">
+
+#### [@stdlib/math/base/ops/cneg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cneg)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-cnegf-unreleased">
+
+#### [@stdlib/math/base/ops/cnegf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/cnegf)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-unreleased">
 
 #### [@stdlib/math/base/special](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special)
@@ -109,6 +197,7 @@
 
 ##### Features
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 -   [`5b184b6`](https://github.com/stdlib-js/stdlib/commit/5b184b681a3d1d5c3fea30b9d8f4630c86eb44af) - add C implementation for `math/base/special/binomcoefln`
 -   [`06b8011`](https://github.com/stdlib-js/stdlib/commit/06b80119890e1868578ba4904e9efaa071b27b05) - add C implementation for `math/base/special/binomcoef`
 
@@ -125,6 +214,50 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-acos-unreleased">
+
+#### [@stdlib/math/base/special/acos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acos)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -154,6 +287,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-acosh-unreleased">
+
+#### [@stdlib/math/base/special/acosh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acosh)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-acotdf-unreleased">
 
 #### [@stdlib/math/base/special/acotdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acotdf)
@@ -169,6 +324,50 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-acoth-unreleased">
+
+#### [@stdlib/math/base/special/acoth](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acoth)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-acovercos-unreleased">
+
+#### [@stdlib/math/base/special/acovercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acovercos)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -198,6 +397,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-acoversin-unreleased">
+
+#### [@stdlib/math/base/special/acoversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acoversin)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-acoversinf-unreleased">
 
 #### [@stdlib/math/base/special/acoversinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/acoversinf)
@@ -213,6 +434,216 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ahavercos-unreleased">
+
+#### [@stdlib/math/base/special/ahavercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ahavercos)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ahavercosf-unreleased">
+
+#### [@stdlib/math/base/special/ahavercosf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ahavercosf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fc38ed8`](https://github.com/stdlib-js/stdlib/commit/fc38ed8247ba61728a368306323ad70cda5895d6) - add `math/base/special/ahavercosf` [(#3072)](https://github.com/stdlib-js/stdlib/pull/3072)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#649](https://github.com/stdlib-js/stdlib/issues/649)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ahaversin-unreleased">
+
+#### [@stdlib/math/base/special/ahaversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ahaversin)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ahaversinf-unreleased">
+
+#### [@stdlib/math/base/special/ahaversinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ahaversinf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`545a050`](https://github.com/stdlib-js/stdlib/commit/545a05093d99910b39773f57d3df2da9232b24f5) - add `math/base/special/ahaversinf` [(#3076)](https://github.com/stdlib-js/stdlib/pull/3076)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-asech-unreleased">
+
+#### [@stdlib/math/base/special/asech](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asech)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-asin-unreleased">
+
+#### [@stdlib/math/base/special/asin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asin)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-asinh-unreleased">
+
+#### [@stdlib/math/base/special/asinh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/asinh)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-atan-unreleased">
+
+#### [@stdlib/math/base/special/atan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atan)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-atan2-unreleased">
+
+#### [@stdlib/math/base/special/atan2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atan2)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -242,6 +673,50 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-atanh-unreleased">
+
+#### [@stdlib/math/base/special/atanh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/atanh)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-avercos-unreleased">
+
+#### [@stdlib/math/base/special/avercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/avercos)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-avercosf-unreleased">
 
 #### [@stdlib/math/base/special/avercosf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/avercosf)
@@ -257,6 +732,28 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-aversin-unreleased">
+
+#### [@stdlib/math/base/special/aversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/aversin)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -286,6 +783,40 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-bernoulli-unreleased">
+
+#### [@stdlib/math/base/special/bernoulli](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/bernoulli)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`47cfa90`](https://github.com/stdlib-js/stdlib/commit/47cfa907d643a00ac5b3fce9967e655401e110f8) - update the return value for `n=1` in `math/base/special/bernoulli` [(#3108)](https://github.com/stdlib-js/stdlib/pull/3108)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`47cfa90`](https://github.com/stdlib-js/stdlib/commit/47cfa907d643a00ac5b3fce9967e655401e110f8): update return value for `n=1`
+
+    -   In order to migrate and preserve prior behavior, users should special case `n=1` and return `0`. The change in this commit aligns return values with SymPy and R; although, other libraries and envs choose to return `-0.5`.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-besselj0-unreleased">
 
 #### [@stdlib/math/base/special/besselj0](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/besselj0)
@@ -301,6 +832,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -324,6 +865,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 <section class="breaking-changes">
 
@@ -359,6 +910,38 @@
 
 <!-- /.features -->
 
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-bessely1-unreleased">
+
+#### [@stdlib/math/base/special/bessely1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/bessely1)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
 </details>
 
 </section>
@@ -387,6 +970,436 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cbrt-unreleased">
+
+#### [@stdlib/math/base/special/cbrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cbrt)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cbrtf-unreleased">
+
+#### [@stdlib/math/base/special/cbrtf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cbrtf)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ccis-unreleased">
+
+#### [@stdlib/math/base/special/ccis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ccis)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ceil-unreleased">
+
+#### [@stdlib/math/base/special/ceil](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ceil)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ceilf-unreleased">
+
+#### [@stdlib/math/base/special/ceilf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ceilf)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cexp-unreleased">
+
+#### [@stdlib/math/base/special/cexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cexp)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cfloor-unreleased">
+
+#### [@stdlib/math/base/special/cfloor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cfloor)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cfloorf-unreleased">
+
+#### [@stdlib/math/base/special/cfloorf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cfloorf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6556a46`](https://github.com/stdlib-js/stdlib/commit/6556a46aa3a6dffdff6becd4fb98d32421b3e7f2) - add `math/base/special/cfloorf` [(#3058)](https://github.com/stdlib-js/stdlib/pull/3058)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#649](https://github.com/stdlib-js/stdlib/issues/649)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cfloorn-unreleased">
+
+#### [@stdlib/math/base/special/cfloorn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cfloorn)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cinv-unreleased">
+
+#### [@stdlib/math/base/special/cinv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cinv)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cos-unreleased">
+
+#### [@stdlib/math/base/special/cos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cos)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cosh-unreleased">
+
+#### [@stdlib/math/base/special/cosh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cosh)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-covercos-unreleased">
+
+#### [@stdlib/math/base/special/covercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/covercos)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-coversin-unreleased">
+
+#### [@stdlib/math/base/special/coversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/coversin)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cphase-unreleased">
+
+#### [@stdlib/math/base/special/cphase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cphase)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cround-unreleased">
+
+#### [@stdlib/math/base/special/cround](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cround)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-croundf-unreleased">
+
+#### [@stdlib/math/base/special/croundf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/croundf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d9a93be`](https://github.com/stdlib-js/stdlib/commit/d9a93be954f04720bb5b03512be42c9ce6201088) - add `math/base/special/croundf` [(#3061)](https://github.com/stdlib-js/stdlib/pull/3061)
+
+</section>
+
+<!-- /.features -->
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#649](https://github.com/stdlib-js/stdlib/issues/649)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-dirac-delta-unreleased">
+
+#### [@stdlib/math/base/special/dirac-delta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/dirac-delta)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-erf-unreleased">
 
 #### [@stdlib/math/base/special/erf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erf)
@@ -402,6 +1415,38 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-erfc-unreleased">
+
+#### [@stdlib/math/base/special/erfc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/erfc)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -431,6 +1476,94 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-exp-unreleased">
+
+#### [@stdlib/math/base/special/exp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/exp)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-exp2-unreleased">
+
+#### [@stdlib/math/base/special/exp2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/exp2)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-expit-unreleased">
+
+#### [@stdlib/math/base/special/expit](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/expit)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-expm1-unreleased">
+
+#### [@stdlib/math/base/special/expm1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/expm1)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-factorialln-unreleased">
 
 #### [@stdlib/math/base/special/factorialln](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/factorialln)
@@ -446,6 +1579,126 @@
 </section>
 
 <!-- /.features -->
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-fibonacci-unreleased">
+
+#### [@stdlib/math/base/special/fibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fibonacci)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-fibonacci-index-unreleased">
+
+#### [@stdlib/math/base/special/fibonacci-index](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fibonacci-index)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-fmodf-unreleased">
+
+#### [@stdlib/math/base/special/fmodf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/fmodf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7fd112c`](https://github.com/stdlib-js/stdlib/commit/7fd112c799e3a864d975357b2066e45f4196653e) - add `math/base/special/fmodf` [(#3059)](https://github.com/stdlib-js/stdlib/pull/3059)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-frexp-unreleased">
+
+#### [@stdlib/math/base/special/frexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/frexp)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-gamma-unreleased">
+
+#### [@stdlib/math/base/special/gamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gamma)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -513,6 +1766,170 @@
 
 <!-- /.features -->
 
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-gcdf-unreleased">
+
+#### [@stdlib/math/base/special/gcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/gcdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f8bcfd8`](https://github.com/stdlib-js/stdlib/commit/f8bcfd832483d46068c710b6854d5f97bcb778fd) - add `math/base/special/gcdf` [(#2997)](https://github.com/stdlib-js/stdlib/pull/2997)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-hacovercos-unreleased">
+
+#### [@stdlib/math/base/special/hacovercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hacovercos)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-hacoversin-unreleased">
+
+#### [@stdlib/math/base/special/hacoversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hacoversin)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-havercos-unreleased">
+
+#### [@stdlib/math/base/special/havercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/havercos)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-haversin-unreleased">
+
+#### [@stdlib/math/base/special/haversin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/haversin)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-heaviside-unreleased">
+
+#### [@stdlib/math/base/special/heaviside](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/heaviside)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ldexp-unreleased">
+
+#### [@stdlib/math/base/special/ldexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ldexp)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
 </details>
 
 </section>
@@ -534,6 +1951,204 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ln-unreleased">
+
+#### [@stdlib/math/base/special/ln](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ln)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-log-unreleased">
+
+#### [@stdlib/math/base/special/log](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-log10-unreleased">
+
+#### [@stdlib/math/base/special/log10](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log10)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-log1mexp-unreleased">
+
+#### [@stdlib/math/base/special/log1mexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log1mexp)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-log1p-unreleased">
+
+#### [@stdlib/math/base/special/log1p](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log1p)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-log1pexp-unreleased">
+
+#### [@stdlib/math/base/special/log1pexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log1pexp)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-log1pmx-unreleased">
+
+#### [@stdlib/math/base/special/log1pmx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log1pmx)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-log2-unreleased">
+
+#### [@stdlib/math/base/special/log2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/log2)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-logaddexp-unreleased">
+
+#### [@stdlib/math/base/special/logaddexp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/logaddexp)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -563,6 +2178,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-logit-unreleased">
+
+#### [@stdlib/math/base/special/logit](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/logit)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-lucas-unreleased">
 
 #### [@stdlib/math/base/special/lucas](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lucas)
@@ -578,6 +2215,60 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-max-unreleased">
+
+#### [@stdlib/math/base/special/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/max)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-maxabs-unreleased">
+
+#### [@stdlib/math/base/special/maxabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxabs)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -607,6 +2298,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-maxabsn-unreleased">
+
+#### [@stdlib/math/base/special/maxabsn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxabsn)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-maxf-unreleased">
 
 #### [@stdlib/math/base/special/maxf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxf)
@@ -622,6 +2335,72 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-maxn-unreleased">
+
+#### [@stdlib/math/base/special/maxn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/maxn)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-min-unreleased">
+
+#### [@stdlib/math/base/special/min](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/min)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-minabs-unreleased">
+
+#### [@stdlib/math/base/special/minabs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minabs)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -651,6 +2430,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-minabsn-unreleased">
+
+#### [@stdlib/math/base/special/minabsn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minabsn)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-minf-unreleased">
 
 #### [@stdlib/math/base/special/minf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minf)
@@ -666,6 +2467,50 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-minn-unreleased">
+
+#### [@stdlib/math/base/special/minn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/minn)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-modf-unreleased">
+
+#### [@stdlib/math/base/special/modf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/modf)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -761,6 +2606,204 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-negafibonacci-unreleased">
+
+#### [@stdlib/math/base/special/negafibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/negafibonacci)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-negalucas-unreleased">
+
+#### [@stdlib/math/base/special/negalucas](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/negalucas)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-pow-unreleased">
+
+#### [@stdlib/math/base/special/pow](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/pow)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-rad2deg-unreleased">
+
+#### [@stdlib/math/base/special/rad2deg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rad2deg)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-ramp-unreleased">
+
+#### [@stdlib/math/base/special/ramp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/ramp)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-rampf-unreleased">
+
+#### [@stdlib/math/base/special/rampf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rampf)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-rcbrt-unreleased">
+
+#### [@stdlib/math/base/special/rcbrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rcbrt)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-riemann-zeta-unreleased">
+
+#### [@stdlib/math/base/special/riemann-zeta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/riemann-zeta)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e01c8e2`](https://github.com/stdlib-js/stdlib/commit/e01c8e28e77db58112d6bdcffa2e924f648e09fd) - add C implementation for `math/base/special/riemann-zeta` [(#2737)](https://github.com/stdlib-js/stdlib/pull/2737)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-round-unreleased">
+
+#### [@stdlib/math/base/special/round](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/round)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-roundf-unreleased">
 
 #### [@stdlib/math/base/special/roundf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundf)
@@ -776,6 +2819,50 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-rsqrt-unreleased">
+
+#### [@stdlib/math/base/special/rsqrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rsqrt)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-rsqrtf-unreleased">
+
+#### [@stdlib/math/base/special/rsqrtf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rsqrtf)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -817,6 +2904,72 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-signum-unreleased">
+
+#### [@stdlib/math/base/special/signum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/signum)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-signumf-unreleased">
+
+#### [@stdlib/math/base/special/signumf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/signumf)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-sin-unreleased">
+
+#### [@stdlib/math/base/special/sin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sin)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-sinc-unreleased">
 
 #### [@stdlib/math/base/special/sinc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sinc)
@@ -839,6 +2992,160 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-sincos-unreleased">
+
+#### [@stdlib/math/base/special/sincos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sincos)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-sincospi-unreleased">
+
+#### [@stdlib/math/base/special/sincospi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sincospi)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-sinh-unreleased">
+
+#### [@stdlib/math/base/special/sinh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sinh)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-sqrt-unreleased">
+
+#### [@stdlib/math/base/special/sqrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sqrt)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-sqrtf-unreleased">
+
+#### [@stdlib/math/base/special/sqrtf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sqrtf)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-tan-unreleased">
+
+#### [@stdlib/math/base/special/tan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tan)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-tanh-unreleased">
+
+#### [@stdlib/math/base/special/tanh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tanh)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-trigamma-unreleased">
 
 #### [@stdlib/math/base/special/trigamma](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/trigamma)
@@ -854,6 +3161,116 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-trunc-unreleased">
+
+#### [@stdlib/math/base/special/trunc](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/trunc)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-truncf-unreleased">
+
+#### [@stdlib/math/base/special/truncf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/truncf)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-vercos-unreleased">
+
+#### [@stdlib/math/base/special/vercos](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/vercos)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-versin-unreleased">
+
+#### [@stdlib/math/base/special/versin](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/versin)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-wrap-unreleased">
+
+#### [@stdlib/math/base/special/wrap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/wrap)
+
+<details>
+
+<section class="reverts">
+
+##### Reverts
+
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
 
 </details>
 
@@ -891,6 +3308,14 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
+
+    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+-   [`47cfa90`](https://github.com/stdlib-js/stdlib/commit/47cfa907d643a00ac5b3fce9967e655401e110f8): update return value for `n=1`
+
+    -   In order to migrate and preserve prior behavior, users should special case `n=1` and return `0`. The change in this commit aligns return values with SymPy and R; although, other libraries and envs choose to return `-0.5`.
+
 -   [`0ae49fb`](https://github.com/stdlib-js/stdlib/commit/0ae49fba6e79599a4b8b1be464a7570a3c7f6d83): update C API name
 
     -   This commit changes the name of the C API from `stdlib_base_j1` to `stdlib_base_besselj1`. This ensures that the C function name more closely matches the global namespace name and helps protect against future naming collisions. To migrate, users should update their call signatures accordingly.
@@ -903,9 +3328,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 4 issues were closed in this release:
 
-[#225](https://github.com/stdlib-js/stdlib/issues/225)
+[#225](https://github.com/stdlib-js/stdlib/issues/225), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#649](https://github.com/stdlib-js/stdlib/issues/649)
 
 </section>
 
@@ -915,14 +3340,15 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
--   AbhijitRaut04
+-   Abhijit Raut
 -   Aman Bhansali
 -   Athan Reines
 -   Ayaka
 -   Gunj Joshi
+-   Gururaj Gurram
 -   Philipp Burckhardt
 
 </section>
@@ -935,7 +3361,48 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`ed4c8d6`](https://github.com/stdlib-js/stdlib/commit/ed4c8d65a020d119c4baa1eb6716751c75cf8a07) - **feat:** add support for secant functionality `math/base/special/sec` [(#3027)](https://github.com/stdlib-js/stdlib/pull/3027) _(by AbhijitRaut04, Athan Reines, Philipp Burckhardt)_
+-   [`e01c8e2`](https://github.com/stdlib-js/stdlib/commit/e01c8e28e77db58112d6bdcffa2e924f648e09fd) - **feat:** add C implementation for `math/base/special/riemann-zeta` [(#2737)](https://github.com/stdlib-js/stdlib/pull/2737) _(by Gunj Joshi, stdlib-bot)_
+-   [`2a10dde`](https://github.com/stdlib-js/stdlib/commit/2a10dde4b821cf7d96fcd76339beac03e9548f47) - **bench:** update benchmarks and examples in `math/base/special/ldexp` [(#2781)](https://github.com/stdlib-js/stdlib/pull/2781) _(by Gunj Joshi, stdlib-bot)_
+-   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`4817867`](https://github.com/stdlib-js/stdlib/commit/4817867dcbddffe1ead3f532e01fce352bd77808) - **chore:** move stdlib benchmarks into native sub-directories _(by Philipp Burckhardt)_
+-   [`04a838f`](https://github.com/stdlib-js/stdlib/commit/04a838fd4345e5a0b3e739e734b8fb1f21de56a3) - **chore:** use correct Makefile _(by Philipp Burckhardt)_
+-   [`1dd3fdc`](https://github.com/stdlib-js/stdlib/commit/1dd3fdcf42490e1d3c93fa3a21a65aca69454932) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`d8a4cfb`](https://github.com/stdlib-js/stdlib/commit/d8a4cfb578a949ed07c7a18749e48096f4f9b488) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`dbbb0ba`](https://github.com/stdlib-js/stdlib/commit/dbbb0bab688e9a2de22d967a57eeb31738b93340) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`cdaf16f`](https://github.com/stdlib-js/stdlib/commit/cdaf16f9f3c05f153fcffbb00dab12412196cce6) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`ac4992b`](https://github.com/stdlib-js/stdlib/commit/ac4992b3eeccbfcceea795f86cf669b2481d8250) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`97a27cf`](https://github.com/stdlib-js/stdlib/commit/97a27cf2746042026c3e68416b7c5f9da2bb24d9) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`184d71f`](https://github.com/stdlib-js/stdlib/commit/184d71f0d04083ef6e64b641eccfc322273f544c) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
+-   [`f0b5a73`](https://github.com/stdlib-js/stdlib/commit/f0b5a739637214f85790658974070c871a2ca30b) - **refactor:** replace built-in with `stdlib_base_atan2` in `math/base/special/cphase` [(#3231)](https://github.com/stdlib-js/stdlib/pull/3231) _(by Gunj Joshi)_
+-   [`35ea456`](https://github.com/stdlib-js/stdlib/commit/35ea456c3f527fda8c717b5f31deccb6ba9e44d2) - **refactor:** use `stdlib_base_round` instead of builtin in `math/base/special/cround` [(#3216)](https://github.com/stdlib-js/stdlib/pull/3216) _(by Gunj Joshi)_
+-   [`7e2c16b`](https://github.com/stdlib-js/stdlib/commit/7e2c16b05d85b9d25c21626d4cbce381fcfe5d32) - **refactor:** remove unused header, update benchmarks in `math/base/special/croundf` [(#3217)](https://github.com/stdlib-js/stdlib/pull/3217) _(by Gunj Joshi)_
+-   [`c660c70`](https://github.com/stdlib-js/stdlib/commit/c660c705bb3478f4fb6cb818c9b1d3429e8a6774) - **chore:** use correct `Makefile` and update benchmarks in `math/base/special/csch` [(#3209)](https://github.com/stdlib-js/stdlib/pull/3209) _(by Gunj Joshi)_
+-   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`961d039`](https://github.com/stdlib-js/stdlib/commit/961d03929b8b1b9c5221dc36cb21f0e8194f06c2) - **chore:** use relative path to load package.json file _(by Philipp Burckhardt)_
+-   [`15546a9`](https://github.com/stdlib-js/stdlib/commit/15546a92fb2f48b6c780fdf2dd0460340cda8830) - **docs:** update function name in header of C section _(by Philipp Burckhardt)_
+-   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`e0790b9`](https://github.com/stdlib-js/stdlib/commit/e0790b9a98228e98b1442a5cd7e93cf2dbe3aa7c) - **refactor:** replace built-in with `fmod` in `math/base/assert/is-prime` [(#3124)](https://github.com/stdlib-js/stdlib/pull/3124) _(by Gunj Joshi, stdlib-bot)_
+-   [`72bf083`](https://github.com/stdlib-js/stdlib/commit/72bf083eb1bbc829eebbbff32f73fc2a202b2570) - **refactor:** update benchmarks and test fixtures in `math/base/special/ahavercosf` [(#3118)](https://github.com/stdlib-js/stdlib/pull/3118) _(by Gunj Joshi)_
+-   [`163a3e7`](https://github.com/stdlib-js/stdlib/commit/163a3e7fa2c7429f88b2dd69df42572f9ff0af9d) - **refactor:** update benchmark, add `f` suffixes, missing spaces in `math/base/special/gcdf` [(#3121)](https://github.com/stdlib-js/stdlib/pull/3121) _(by Gunj Joshi, Athan Reines)_
+-   [`3c5c933`](https://github.com/stdlib-js/stdlib/commit/3c5c933c86f7243e8872dcf3cb7548d0399b1b35) - **refactor:** update benchmarks and test fixtures in `math/base/special/ahaversinf` [(#3119)](https://github.com/stdlib-js/stdlib/pull/3119) _(by Gunj Joshi)_
+-   [`8a03f83`](https://github.com/stdlib-js/stdlib/commit/8a03f833d9808c17418225664d7250b94fb0e1b5) - **refactor:** use constant package in `math/base/special/fmodf` (#3120) [(#3120)](https://github.com/stdlib-js/stdlib/pull/3120) _(by Gunj Joshi)_
+-   [`15dff30`](https://github.com/stdlib-js/stdlib/commit/15dff30135c09d5afa4b81c0ef662c68b65b6013) - **refactor:** use macros in addon and update examples in `math/base/assert/is-evenf` [(#3115)](https://github.com/stdlib-js/stdlib/pull/3115) _(by Gunj Joshi, Athan Reines)_
+-   [`e5bfdff`](https://github.com/stdlib-js/stdlib/commit/e5bfdff2d2c137f84eb5f925f8d63a3729d05eb2) - **docs:** update functions descriptions in `math/base/special/cceil` [(#3114)](https://github.com/stdlib-js/stdlib/pull/3114) _(by Gunj Joshi)_
+-   [`79dc5cf`](https://github.com/stdlib-js/stdlib/commit/79dc5cf4044f4f90a7005389e4740f14a820a967) - **bench:** generate numbers outside loops in `math/base/special/cfloorf` [(#3113)](https://github.com/stdlib-js/stdlib/pull/3113) _(by Gunj Joshi)_
+-   [`47cfa90`](https://github.com/stdlib-js/stdlib/commit/47cfa907d643a00ac5b3fce9967e655401e110f8) - **feat:** update the return value for `n=1` in `math/base/special/bernoulli` [(#3108)](https://github.com/stdlib-js/stdlib/pull/3108) _(by Gunj Joshi, Athan Reines)_
+-   [`d88cd86`](https://github.com/stdlib-js/stdlib/commit/d88cd86622b7a4ebffcb4b57aa60d5b7292fee73) - **refactor:** use constants, `FI_F` for addon and style fixes in `math/base/special/ldexpf` [(#2868)](https://github.com/stdlib-js/stdlib/pull/2868) _(by Gunj Joshi)_
+-   [`d9a93be`](https://github.com/stdlib-js/stdlib/commit/d9a93be954f04720bb5b03512be42c9ce6201088) - **feat:** add `math/base/special/croundf` [(#3061)](https://github.com/stdlib-js/stdlib/pull/3061) _(by Gururaj Gurram, Philipp Burckhardt)_
+-   [`f8bcfd8`](https://github.com/stdlib-js/stdlib/commit/f8bcfd832483d46068c710b6854d5f97bcb778fd) - **feat:** add `math/base/special/gcdf` [(#2997)](https://github.com/stdlib-js/stdlib/pull/2997) _(by Aayush Khanna, Philipp Burckhardt)_
+-   [`6556a46`](https://github.com/stdlib-js/stdlib/commit/6556a46aa3a6dffdff6becd4fb98d32421b3e7f2) - **feat:** add `math/base/special/cfloorf` [(#3058)](https://github.com/stdlib-js/stdlib/pull/3058) _(by Aayush Khanna)_
+-   [`7fd112c`](https://github.com/stdlib-js/stdlib/commit/7fd112c799e3a864d975357b2066e45f4196653e) - **feat:** add `math/base/special/fmodf` [(#3059)](https://github.com/stdlib-js/stdlib/pull/3059) _(by Gunj Joshi, Philipp Burckhardt)_
+-   [`545a050`](https://github.com/stdlib-js/stdlib/commit/545a05093d99910b39773f57d3df2da9232b24f5) - **feat:** add `math/base/special/ahaversinf` [(#3076)](https://github.com/stdlib-js/stdlib/pull/3076) _(by Aayush Khanna)_
+-   [`fc38ed8`](https://github.com/stdlib-js/stdlib/commit/fc38ed8247ba61728a368306323ad70cda5895d6) - **feat:** add `math/base/special/ahavercosf` [(#3072)](https://github.com/stdlib-js/stdlib/pull/3072) _(by Aayush Khanna, Philipp Burckhardt)_
+-   [`e093a4d`](https://github.com/stdlib-js/stdlib/commit/e093a4d6a41d7686cc780fd1935bd925ccbbe155) - **refactor:** use external constant and update license in `math/base/special/pow` [(#3082)](https://github.com/stdlib-js/stdlib/pull/3082) _(by Gunj Joshi)_
+-   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - **feat:** add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077) _(by Gunj Joshi)_
+-   [`6715177`](https://github.com/stdlib-js/stdlib/commit/6715177ecec14685ff6f8bce8c35f65bc0b2f199) - **docs:** correct function description and indentation in `math/base/assert/is-even` [(#3078)](https://github.com/stdlib-js/stdlib/pull/3078) _(by Gunj Joshi)_
+-   [`5a2ddbe`](https://github.com/stdlib-js/stdlib/commit/5a2ddbe402c98b9ea6aa989e248a3b26da375feb) - **docs:** correct the function description and indentation in `math/base/assert/is-odd` [(#3070)](https://github.com/stdlib-js/stdlib/pull/3070) _(by Gunj Joshi)_
+-   [`ed4c8d6`](https://github.com/stdlib-js/stdlib/commit/ed4c8d65a020d119c4baa1eb6716751c75cf8a07) - **feat:** add support for secant functionality `math/base/special/sec` [(#3027)](https://github.com/stdlib-js/stdlib/pull/3027) _(by Abhijit Raut, Athan Reines, Philipp Burckhardt)_
 -   [`b18921a`](https://github.com/stdlib-js/stdlib/commit/b18921a136da2755efccfd6ae23c8b3f5aaa8f4a) - **feat:** add `math/base/special/acosdf` [(#3015)](https://github.com/stdlib-js/stdlib/pull/3015) _(by Aayush Khanna, Athan Reines)_
 -   [`60522bf`](https://github.com/stdlib-js/stdlib/commit/60522bfc0b5574d348301e788400178156731024) - **docs:** fix operator [(#3039)](https://github.com/stdlib-js/stdlib/pull/3039) _(by Gunj Joshi)_
 -   [`84b8294`](https://github.com/stdlib-js/stdlib/commit/84b8294c2d5494ff5eaaa2652dda81671e728068) - **feat:** add `math/base/special/nanmaxf` [(#3035)](https://github.com/stdlib-js/stdlib/pull/3035) _(by Gunj Joshi, Athan Reines)_
@@ -17527,6 +19994,18 @@ This release closes the following issue:
 
 <!-- /.breaking-changes -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#895](https://github.com/stdlib-js/stdlib/issues/895)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -18621,9 +21100,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#892](https://github.com/stdlib-js/stdlib/issues/892), [#893](https://github.com/stdlib-js/stdlib/issues/893)
+[#892](https://github.com/stdlib-js/stdlib/issues/892), [#893](https://github.com/stdlib-js/stdlib/issues/893), [#895](https://github.com/stdlib-js/stdlib/issues/895)
 
 </section>
 
