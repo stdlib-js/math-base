@@ -79,7 +79,6 @@ The namespace has the following sub-namespaces:
 <div class="namespace-toc">
 
 -   <span class="signature">[`assert`][@stdlib/math/base/assert]</span><span class="delimiter">: </span><span class="description">base math assertion utilities.</span>
--   <span class="signature">[`ops`][@stdlib/math/base/ops]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) math operators.</span>
 -   <span class="signature">[`special`][@stdlib/math/base/special]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) special math functions.</span>
 -   <span class="signature">[`tools`][@stdlib/math/base/tools]</span><span class="delimiter">: </span><span class="description">base math tools.</span>
 -   <span class="signature">[`utils`][@stdlib/math/base/utils]</span><span class="delimiter">: </span><span class="description">base math utilities.</span>
@@ -153,7 +152,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -202,8 +201,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 <!-- <toc-links> -->
 
 [@stdlib/math/base/assert]: https://github.com/stdlib-js/math-base-assert
-
-[@stdlib/math/base/ops]: https://github.com/stdlib-js/math-base-ops
 
 [@stdlib/math/base/special]: https://github.com/stdlib-js/math-base-special
 

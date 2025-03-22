@@ -4,11 +4,79 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-03-22)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="math-base-unreleased">
+
+#### [@stdlib/math/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`dc3f40e`](https://github.com/stdlib-js/stdlib/commit/dc3f40ee482c788aa64b5e18840f9ca914044b1a): remove `ops`
+
+    -   ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="math-base-assert-is-evenf-unreleased">
 
@@ -98,6 +166,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-assert-is-probabilityf-unreleased">
+
+#### [@stdlib/math/base/assert/is-probabilityf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-probabilityf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`20b4721`](https://github.com/stdlib-js/stdlib/commit/20b4721661560f4bfaa48aca80696055776ac900) - add `math/base/assert/is-probabilityf` [(#4214)](https://github.com/stdlib-js/stdlib/pull/4214)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-napi-unreleased">
 
 #### [@stdlib/math/base/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi)
@@ -108,8 +198,59 @@
 
 ##### Features
 
+-   [`894885f`](https://github.com/stdlib-js/stdlib/commit/894885f83d8449b30210e87c30aed433be7832ad) - add `FC_C` macro
+-   [`cbaae4c`](https://github.com/stdlib-js/stdlib/commit/cbaae4c97c36e4d6b1f62c4bed3a74519d72742e) - add `DZ_Z` macro
+-   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522)
 -   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315)
 -   [`46cda32`](https://github.com/stdlib-js/stdlib/commit/46cda325a622274755194c2dd6415d3d04ab5a5b) - add `LL_D` in `math/base/napi/binary` [(#2726)](https://github.com/stdlib-js/stdlib/pull/2726)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-napi-quaternary-unreleased">
+
+#### [@stdlib/math/base/napi/quaternary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/quaternary)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8da699b`](https://github.com/stdlib-js/stdlib/commit/8da699b54580e2139c5cb911176abdb54d36e2c8) - add `DIII_D` macro in `math/base/napi/quaternary` [(#5545)](https://github.com/stdlib-js/stdlib/pull/5545)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-napi-ternary-unreleased">
+
+#### [@stdlib/math/base/napi/ternary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/napi/ternary)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0d9e8ca`](https://github.com/stdlib-js/stdlib/commit/0d9e8ca76abe1d9257dd08d5e091c3387931d70c) - add `STDLIB_MATH_BASE_NAPI_MODULE_DID_D` macro in `math/base/napi/ternary` [(#5281)](https://github.com/stdlib-js/stdlib/pull/5281)
+-   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855)
+-   [`3224b20`](https://github.com/stdlib-js/stdlib/commit/3224b20061abe3156c282e79c52c5c01282239e7) - add `CCC_C` macro
+-   [`1994ca1`](https://github.com/stdlib-js/stdlib/commit/1994ca173dad38f7f7b5cbd76e849e70a0f52b15) - add `ZZZ_Z` macro
+-   [`665d028`](https://github.com/stdlib-js/stdlib/commit/665d02833fd4ee672310ea00085ebd15836d5868) - add `STDLIB_MATH_BASE_NAPI_MODULE_IID_D` macro in `math/base/napi/ternary` [(#4523)](https://github.com/stdlib-js/stdlib/pull/4523)
 
 </section>
 
@@ -131,12 +272,1204 @@
 
 ##### Features
 
+-   [`5a2afad`](https://github.com/stdlib-js/stdlib/commit/5a2afad7603802248e8efb235a998aa2971cf646) - add `D_F` macro in `math/base/napi/unary` [(#6253)](https://github.com/stdlib-js/stdlib/pull/6253)
 -   [`4340ba6`](https://github.com/stdlib-js/stdlib/commit/4340ba63835b57f866fea18a1d61f35fb273d6d1) - add `I_F` macro to `math/base/napi/unary` [(#2903)](https://github.com/stdlib-js/stdlib/pull/2903)
 -   [`b224509`](https://github.com/stdlib-js/stdlib/commit/b2245099fc615230ea5a6d3dd28dc7626634bdab) - add `F_I` macro to `math/base/napi/unary` [(#2768)](https://github.com/stdlib-js/stdlib/pull/2768)
 
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-unreleased">
+
+#### [@stdlib/math/base/ops](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799) - update namespace TypeScript declarations [(#5511)](https://github.com/stdlib-js/stdlib/pull/5511)
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436)
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385)
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
+-   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`a9bed73`](https://github.com/stdlib-js/stdlib/commit/a9bed737181a958f0a37ea636c5abf3b8eed9bed): remove `math/base/ops`
+
+    -   Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`cec0ff2`](https://github.com/stdlib-js/stdlib/commit/cec0ff2dd184b40e4253affb9656633e2832a341): remove `cadd`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+
+-   [`26a8bde`](https://github.com/stdlib-js/stdlib/commit/26a8bde129651f72cf48f5dffd93a94793879103): remove `cmulf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base` namespace.
+
+-   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848): remove `caddf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base` namespace.
+
+-   [`8f9dfb3`](https://github.com/stdlib-js/stdlib/commit/8f9dfb38f791c501d891bf62863866572054dcc3): remove `sub`
+
+    -   To migrate, users should access the same symbol via the `number/float64/base` namespace.
+
+-   [`9135b25`](https://github.com/stdlib-js/stdlib/commit/9135b2502ee1a115427811d3f318e61bfdabfbdb): remove `csubf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base/sub` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`1066fde`](https://github.com/stdlib-js/stdlib/commit/1066fde79df3eaee809032eae0306bcb6aab1536): remove `mul`
+
+    -   To migrate, users should access the same symbol in the `number/float64/base` namespace.
+
+-   [`d631175`](https://github.com/stdlib-js/stdlib/commit/d631175c656a69d5f72f9c31789832508cb585be): remove `csub`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`0c06190`](https://github.com/stdlib-js/stdlib/commit/0c0619036e1d1c2eea8d3996fb7a8488fc881032): remove `div`
+
+    -   To migrate, users should access `div` via the `number/float64/base` namespace.
+
+-   [`975673b`](https://github.com/stdlib-js/stdlib/commit/975673bff1cb9bd1b313e79ad4ee7595142fe1ff): remove `cnegf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base/neg` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`112db79`](https://github.com/stdlib-js/stdlib/commit/112db79f8adcf64554e4b246c08c3462a6fb1451): remove `cneg`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`ec9247d`](https://github.com/stdlib-js/stdlib/commit/ec9247d8f9fdefc32a28a68ed0bbae29898f5c81): remove `cdiv`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`782bbfd`](https://github.com/stdlib-js/stdlib/commit/782bbfd4fca9765fc4a916aa2a4d4701647c7a19): remove `umuldw`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-uint32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`b2228a8`](https://github.com/stdlib-js/stdlib/commit/b2228a8607c4ec969a1896b69ba40157bcf8e16c): remove `imuldw`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-int32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`b70a6d6`](https://github.com/stdlib-js/stdlib/commit/b70a6d61be09792e9f7b51815223bfab2b3139b2): remove `imul`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-int32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799): remove `mulf` from `math/base/ops` namespace
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
+
+-   [`ba7f7ab`](https://github.com/stdlib-js/stdlib/commit/ba7f7ab1afb8f31f763f21ddfaae4937e333d757): remove `umul`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-uint32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1): remove `mulf` symbol
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
+
+-   [`80f11b8`](https://github.com/stdlib-js/stdlib/commit/80f11b8ab164070e9caa9d1940925c0258f5322c): remove `subf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-float32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+
+-   [`0667356`](https://github.com/stdlib-js/stdlib/commit/0667356f8cd3b95699e57d29fe2e4f4d3fdb671c): remove `mulf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-float32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
+
+    -   To migrate, users should access `dmaxabs` via the `stats/strided` namespace.
+
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
+
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
+
+    -   To migrate, users should access those symbols in the `number/float64/base` namespace.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add-unreleased">
+
+#### [@stdlib/math/base/ops/add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`b253140`](https://github.com/stdlib-js/stdlib/commit/b253140185322817c25fd8e3bb238703d013727a): remove `math/base/ops/add`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/add` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add3-unreleased">
+
+#### [@stdlib/math/base/ops/add3](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add3)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`69d0ade`](https://github.com/stdlib-js/stdlib/commit/69d0adefc17b11a444273ec9afac7246a8f5b3cb): remove `math/base/ops/add3`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/add3` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add4-unreleased">
+
+#### [@stdlib/math/base/ops/add4](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add4)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`e621529`](https://github.com/stdlib-js/stdlib/commit/e6215295bef94ff94f5b6d7a893c99283725d7c9): remove `math/base/ops/add4`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/add4` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-add5-unreleased">
+
+#### [@stdlib/math/base/ops/add5](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/add5)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`cfa99a4`](https://github.com/stdlib-js/stdlib/commit/cfa99a44297521f94fb485a4f3009b6070340728): remove `math/base/ops/add5`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/add5` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-addf-unreleased">
+
+#### [@stdlib/math/base/ops/addf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/addf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`ec08225`](https://github.com/stdlib-js/stdlib/commit/ec0822505673b3032e591de02a9e0dc67b598f81): remove `math/base/ops/addf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float32/base/add` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -160,6 +1493,66 @@
 
 <!-- /.reverts -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`9752725`](https://github.com/stdlib-js/stdlib/commit/9752725fc04e4a14c4460d3ef7e188ad80bb3d60): remove `math/base/ops/cdiv`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/div` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -182,6 +1575,66 @@
 
 <!-- /.reverts -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`f8e419f`](https://github.com/stdlib-js/stdlib/commit/f8e419fd8c741b7a6dd062c570fccc18cb7b2b61): remove `math/base/ops/cneg`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/neg` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -203,6 +1656,1174 @@
 </section>
 
 <!-- /.reverts -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`bfb8cf2`](https://github.com/stdlib-js/stdlib/commit/bfb8cf278c204e83d1d3c9bae6e37553f1827345): remove `math/base/ops/cnegf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float32/base/neg` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-csub-unreleased">
+
+#### [@stdlib/math/base/ops/csub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/csub)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`4f3510f`](https://github.com/stdlib-js/stdlib/commit/4f3510f0c5848aff37e1ce441543e2eb5e6eddd5): remove `math/base/ops/csub`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-csubf-unreleased">
+
+#### [@stdlib/math/base/ops/csubf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/csubf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6): remove `math/base/ops/csubf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float32/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-div-unreleased">
+
+#### [@stdlib/math/base/ops/div](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/div)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0f7955c`](https://github.com/stdlib-js/stdlib/commit/0f7955ca28cb90556930d603e0784129011b8480): remove `math/base/ops/div`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/div` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-divf-unreleased">
+
+#### [@stdlib/math/base/ops/divf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/divf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`72c6513`](https://github.com/stdlib-js/stdlib/commit/72c6513ad86ddf20c6fe38ecabbbf2b17a112582): remove `math/base/ops/divf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float32/base/div` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-imul-unreleased">
+
+#### [@stdlib/math/base/ops/imul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/imul)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`b830e28`](https://github.com/stdlib-js/stdlib/commit/b830e280f9d2df36f473527b62418539844229c9): remove `math/base/ops/imul`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-int32/base/mul` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-imuldw-unreleased">
+
+#### [@stdlib/math/base/ops/imuldw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/imuldw)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`b2a6bb8`](https://github.com/stdlib-js/stdlib/commit/b2a6bb80465a0d6dcc78f4edaddf719e62d89004): remove `math/base/ops/imuldw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-int32/base/muldw` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5105](https://github.com/stdlib-js/stdlib/issues/5105)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-mul-unreleased">
+
+#### [@stdlib/math/base/ops/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/mul)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`e7ab8a5`](https://github.com/stdlib-js/stdlib/commit/e7ab8a5aaeee5e088db91cbd7b1184a8b7ccde38): remove `math/base/ops/mul`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/mul` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-mulf-unreleased">
+
+#### [@stdlib/math/base/ops/mulf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/mulf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`910ed0a`](https://github.com/stdlib-js/stdlib/commit/910ed0a3d5c4efab8a59308499ab5fd4aa0d136f): remove `math/base/ops/mulf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float32/base/mul` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-sub-unreleased">
+
+#### [@stdlib/math/base/ops/sub](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/sub)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`35875b3`](https://github.com/stdlib-js/stdlib/commit/35875b3b4162a530c02e72e8444589053fd1cb2d): remove `math/base/ops/sub`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-subf-unreleased">
+
+#### [@stdlib/math/base/ops/subf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/subf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`c0aca6a`](https://github.com/stdlib-js/stdlib/commit/c0aca6aff2bbf9141fe738dba75c652bcfbe57d0): remove `math/base/ops/subf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float32/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-umul-unreleased">
+
+#### [@stdlib/math/base/ops/umul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/umul)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`29cc785`](https://github.com/stdlib-js/stdlib/commit/29cc785ee4c0d56aff6a5a2dda3dbf9ad90fbc71): remove `math/base/ops/umul`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-uint32/base/mul` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-ops-umuldw-unreleased">
+
+#### [@stdlib/math/base/ops/umuldw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/ops/umuldw)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`7398503`](https://github.com/stdlib-js/stdlib/commit/7398503d9c24fd184ec56f06181fa28f3a32aac0): remove `math/base/ops/umuldw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-uint32/base/muldw` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -252,6 +2873,206 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`f4a06d9`](https://github.com/stdlib-js/stdlib/commit/f4a06d9b7c3a5075166a8af3cb3643798f35cc2f): remove `cidentityf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`0ebeaf8`](https://github.com/stdlib-js/stdlib/commit/0ebeaf89ad1af59fb5e998d259d717a588fdcbb3): remove `cidentity`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`36d3db3`](https://github.com/stdlib-js/stdlib/commit/36d3db3e658584389593390b81866b367bf9c5fa): remove `identityf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-float32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`3fa0763`](https://github.com/stdlib-js/stdlib/commit/3fa0763e1264cb2d9b3560735aa57e51c66ff2de): remove `identity`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
 
@@ -458,6 +3279,18 @@
 </section>
 
 <!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5363](https://github.com/stdlib-js/stdlib/issues/5363)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -1042,6 +3875,18 @@
 
 <!-- /.reverts -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5898](https://github.com/stdlib-js/stdlib/issues/5898)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -1126,6 +3971,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cflipsignf-unreleased">
+
+#### [@stdlib/math/base/special/cflipsignf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cflipsignf)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5199](https://github.com/stdlib-js/stdlib/issues/5199)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cfloor-unreleased">
 
 #### [@stdlib/math/base/special/cfloor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cfloor)
@@ -1192,6 +4061,150 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cidentity-unreleased">
+
+#### [@stdlib/math/base/special/cidentity](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cidentity)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`7a67cff`](https://github.com/stdlib-js/stdlib/commit/7a67cfff161e9d66bb3c624d45a4428766efb007): remove `math/base/special/cidentity`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/identity` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cidentityf-unreleased">
+
+#### [@stdlib/math/base/special/cidentityf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cidentityf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`2dcec61`](https://github.com/stdlib-js/stdlib/commit/2dcec616498aa8ccab060bd761a9fd626f00035e): remove `math/base/special/cidentityf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float32/base/identity` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cinv-unreleased">
 
 #### [@stdlib/math/base/special/cinv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cinv)
@@ -1236,6 +4249,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cosd-unreleased">
+
+#### [@stdlib/math/base/special/cosd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cosd)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`b947812`](https://github.com/stdlib-js/stdlib/commit/b947812d45606e52f8f3e0ab22f6355f59eb1c49) - update `math/base/special/cosd` to match correct reference implementation [(#5473)](https://github.com/stdlib-js/stdlib/pull/5473)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-cosh-unreleased">
 
 #### [@stdlib/math/base/special/cosh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cosh)
@@ -1251,6 +4286,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-cotd-unreleased">
+
+#### [@stdlib/math/base/special/cotd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cotd)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`75941b9`](https://github.com/stdlib-js/stdlib/commit/75941b94bd2713c857146756596925bb4299af6e) - update `math/base/special/cotd` to match correct reference implementation [(#5813)](https://github.com/stdlib-js/stdlib/pull/5813)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -1317,6 +4374,18 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5961](https://github.com/stdlib-js/stdlib/issues/5961)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -1390,6 +4459,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-cscd-unreleased">
+
+#### [@stdlib/math/base/special/cscd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/cscd)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`406337f`](https://github.com/stdlib-js/stdlib/commit/406337fc2a5709ef967afbd6be8b25b0a89a3c30) - update `math/base/special/cscd` to match correct reference implementation [(#5811)](https://github.com/stdlib-js/stdlib/pull/5811)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-dirac-delta-unreleased">
 
 #### [@stdlib/math/base/special/dirac-delta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/dirac-delta)
@@ -1405,6 +4496,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-dirac-deltaf-unreleased">
+
+#### [@stdlib/math/base/special/dirac-deltaf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/dirac-deltaf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ff48331`](https://github.com/stdlib-js/stdlib/commit/ff483312f61426a3072a5c22a9bf0e8ef4950a42) - add `math/base/special/dirac-deltaf` [(#3363)](https://github.com/stdlib-js/stdlib/pull/3363)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1623,6 +4736,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-falling-factorial-unreleased">
+
+#### [@stdlib/math/base/special/falling-factorial](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/falling-factorial)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b518ff1`](https://github.com/stdlib-js/stdlib/commit/b518ff110e120612be4d53b9f124a3c210711610) - add C implementation for `math/base/special/falling-factorial`
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1948,6 +5083,255 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-heavisidef-unreleased">
+
+#### [@stdlib/math/base/special/heavisidef](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/heavisidef)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a2133de`](https://github.com/stdlib-js/stdlib/commit/a2133de85c6de60892a54b387dbf7bd1ad58e0c8) - add `math/base/special/heavisidef` [(#3374)](https://github.com/stdlib-js/stdlib/pull/3374)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-hyp2f1-unreleased">
+
+#### [@stdlib/math/base/special/hyp2f1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/hyp2f1)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8663446`](https://github.com/stdlib-js/stdlib/commit/86634464cd31d6661514550a89312a18c54af74b) - add C implementation for `math/base/special/hyp2f1` [(#5348)](https://github.com/stdlib-js/stdlib/pull/5348)
+-   [`cebb74b`](https://github.com/stdlib-js/stdlib/commit/cebb74be47855091969b704a5eb37d4b0e3fec0b) - add `math/base/special/hyp2f1` [(#5140)](https://github.com/stdlib-js/stdlib/pull/5140)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-identity-unreleased">
+
+#### [@stdlib/math/base/special/identity](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/identity)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`640dfe9`](https://github.com/stdlib-js/stdlib/commit/640dfe977495e9b320a64ab326e5ff5330a1fd8b): remove `math/base/special/identity`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/identity` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-identityf-unreleased">
+
+#### [@stdlib/math/base/special/identityf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/identityf)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`53bb578`](https://github.com/stdlib-js/stdlib/commit/53bb578118172e65c51bee68712fcac8526011c1): remove `math/base/special/identityf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float32/base/identityf` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-kernel-tan-unreleased">
+
+#### [@stdlib/math/base/special/kernel-tan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/kernel-tan)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5360](https://github.com/stdlib-js/stdlib/issues/5360)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-kronecker-delta-unreleased">
+
+#### [@stdlib/math/base/special/kronecker-delta](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/kronecker-delta)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5199](https://github.com/stdlib-js/stdlib/issues/5199)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-lcmf-unreleased">
 
 #### [@stdlib/math/base/special/lcmf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/lcmf)
@@ -2249,6 +5633,18 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5398](https://github.com/stdlib-js/stdlib/issues/5398)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -2728,6 +6124,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-nonfibonacci-unreleased">
+
+#### [@stdlib/math/base/special/nonfibonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nonfibonacci)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5359](https://github.com/stdlib-js/stdlib/issues/5359)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-nonfibonaccif-unreleased">
 
 #### [@stdlib/math/base/special/nonfibonaccif](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/nonfibonaccif)
@@ -2765,6 +6185,30 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-powm1-unreleased">
+
+#### [@stdlib/math/base/special/powm1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/powm1)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5274](https://github.com/stdlib-js/stdlib/issues/5274)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -2926,6 +6370,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-roundn-unreleased">
+
+#### [@stdlib/math/base/special/roundn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/roundn)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#6005](https://github.com/stdlib-js/stdlib/issues/6005)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-rsqrt-unreleased">
 
 #### [@stdlib/math/base/special/rsqrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/rsqrt)
@@ -2941,6 +6409,18 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5526](https://github.com/stdlib-js/stdlib/issues/5526)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -2997,6 +6477,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-secd-unreleased">
+
+#### [@stdlib/math/base/special/secd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/secd)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`f5459a7`](https://github.com/stdlib-js/stdlib/commit/f5459a759caf08cf4fb882609678e878785d6dc7) - update `math/base/special/secd` to match correct reference implementation [(#5810)](https://github.com/stdlib-js/stdlib/pull/5810)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -3114,6 +6616,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="math-base-special-sincosd-unreleased">
+
+#### [@stdlib/math/base/special/sincosd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sincosd)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6d7317a`](https://github.com/stdlib-js/stdlib/commit/6d7317af46884dca86c9775ca98d5c275d5fe05a) - add `math/base/special/sincosd` [(#5837)](https://github.com/stdlib-js/stdlib/pull/5837)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5893](https://github.com/stdlib-js/stdlib/issues/5893)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="math-base-special-sincospi-unreleased">
 
 #### [@stdlib/math/base/special/sincospi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sincospi)
@@ -3129,6 +6665,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-sind-unreleased">
+
+#### [@stdlib/math/base/special/sind](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/sind)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3f0943b`](https://github.com/stdlib-js/stdlib/commit/3f0943b050f49d96debc6c362ca759bf95f440aa) - add `math/base/special/sind` [(#5435)](https://github.com/stdlib-js/stdlib/pull/5435)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -3240,6 +6798,40 @@ This release closes the following issue:
 
 <!-- /.reverts -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5399](https://github.com/stdlib-js/stdlib/issues/5399)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-tand-unreleased">
+
+#### [@stdlib/math/base/special/tand](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tand)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`874ec3b`](https://github.com/stdlib-js/stdlib/commit/874ec3b3165424a92f43cb2bb843cf949eece5a8) - update `math/base/special/tand` to match correct reference implementation [(#5807)](https://github.com/stdlib-js/stdlib/pull/5807)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -3261,6 +6853,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.reverts -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-special-tribonacci-unreleased">
+
+#### [@stdlib/math/base/special/tribonacci](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/special/tribonacci)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`dfc7be6`](https://github.com/stdlib-js/stdlib/commit/dfc7be6493380962a6ef790f6ddccfa570aff6f3) - add missing `native.js` to `math/base/special/tribonacci` [(#5472)](https://github.com/stdlib-js/stdlib/pull/5472)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -3430,6 +7044,2529 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`a9bed73`](https://github.com/stdlib-js/stdlib/commit/a9bed737181a958f0a37ea636c5abf3b8eed9bed): remove `math/base/ops`
+
+    -   Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`dc3f40e`](https://github.com/stdlib-js/stdlib/commit/dc3f40ee482c788aa64b5e18840f9ca914044b1a): remove `ops`
+
+    -   ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`2dcec61`](https://github.com/stdlib-js/stdlib/commit/2dcec616498aa8ccab060bd761a9fd626f00035e): remove `math/base/special/cidentityf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float32/base/identity` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`f4a06d9`](https://github.com/stdlib-js/stdlib/commit/f4a06d9b7c3a5075166a8af3cb3643798f35cc2f): remove `cidentityf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`cec0ff2`](https://github.com/stdlib-js/stdlib/commit/cec0ff2dd184b40e4253affb9656633e2832a341): remove `cadd`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+
+-   [`7a67cff`](https://github.com/stdlib-js/stdlib/commit/7a67cfff161e9d66bb3c624d45a4428766efb007): remove `math/base/special/cidentity`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/identity` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`0ebeaf8`](https://github.com/stdlib-js/stdlib/commit/0ebeaf89ad1af59fb5e998d259d717a588fdcbb3): remove `cidentity`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`26a8bde`](https://github.com/stdlib-js/stdlib/commit/26a8bde129651f72cf48f5dffd93a94793879103): remove `cmulf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base` namespace.
+
+-   [`53bb578`](https://github.com/stdlib-js/stdlib/commit/53bb578118172e65c51bee68712fcac8526011c1): remove `math/base/special/identityf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float32/base/identityf` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`36d3db3`](https://github.com/stdlib-js/stdlib/commit/36d3db3e658584389593390b81866b367bf9c5fa): remove `identityf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-float32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848): remove `caddf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base` namespace.
+
+-   [`640dfe9`](https://github.com/stdlib-js/stdlib/commit/640dfe977495e9b320a64ab326e5ff5330a1fd8b): remove `math/base/special/identity`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/identity` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`3fa0763`](https://github.com/stdlib-js/stdlib/commit/3fa0763e1264cb2d9b3560735aa57e51c66ff2de): remove `identity`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`8f9dfb3`](https://github.com/stdlib-js/stdlib/commit/8f9dfb38f791c501d891bf62863866572054dcc3): remove `sub`
+
+    -   To migrate, users should access the same symbol via the `number/float64/base` namespace.
+
+-   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6): remove `math/base/ops/csubf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float32/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`9135b25`](https://github.com/stdlib-js/stdlib/commit/9135b2502ee1a115427811d3f318e61bfdabfbdb): remove `csubf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base/sub` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`1066fde`](https://github.com/stdlib-js/stdlib/commit/1066fde79df3eaee809032eae0306bcb6aab1536): remove `mul`
+
+    -   To migrate, users should access the same symbol in the `number/float64/base` namespace.
+
+-   [`4f3510f`](https://github.com/stdlib-js/stdlib/commit/4f3510f0c5848aff37e1ce441543e2eb5e6eddd5): remove `math/base/ops/csub`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`d631175`](https://github.com/stdlib-js/stdlib/commit/d631175c656a69d5f72f9c31789832508cb585be): remove `csub`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`0c06190`](https://github.com/stdlib-js/stdlib/commit/0c0619036e1d1c2eea8d3996fb7a8488fc881032): remove `div`
+
+    -   To migrate, users should access `div` via the `number/float64/base` namespace.
+
+-   [`bfb8cf2`](https://github.com/stdlib-js/stdlib/commit/bfb8cf278c204e83d1d3c9bae6e37553f1827345): remove `math/base/ops/cnegf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float32/base/neg` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`975673b`](https://github.com/stdlib-js/stdlib/commit/975673bff1cb9bd1b313e79ad4ee7595142fe1ff): remove `cnegf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float32/base/neg` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`f8e419f`](https://github.com/stdlib-js/stdlib/commit/f8e419fd8c741b7a6dd062c570fccc18cb7b2b61): remove `math/base/ops/cneg`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/neg` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`112db79`](https://github.com/stdlib-js/stdlib/commit/112db79f8adcf64554e4b246c08c3462a6fb1451): remove `cneg`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`9752725`](https://github.com/stdlib-js/stdlib/commit/9752725fc04e4a14c4460d3ef7e188ad80bb3d60): remove `math/base/ops/cdiv`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/complex-float64/base/div` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`ec9247d`](https://github.com/stdlib-js/stdlib/commit/ec9247d8f9fdefc32a28a68ed0bbae29898f5c81): remove `cdiv`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/complex-float64/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`7398503`](https://github.com/stdlib-js/stdlib/commit/7398503d9c24fd184ec56f06181fa28f3a32aac0): remove `math/base/ops/umuldw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-uint32/base/muldw` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`782bbfd`](https://github.com/stdlib-js/stdlib/commit/782bbfd4fca9765fc4a916aa2a4d4701647c7a19): remove `umuldw`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-uint32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`b2a6bb8`](https://github.com/stdlib-js/stdlib/commit/b2a6bb80465a0d6dcc78f4edaddf719e62d89004): remove `math/base/ops/imuldw`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-int32/base/muldw` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`b2228a8`](https://github.com/stdlib-js/stdlib/commit/b2228a8607c4ec969a1896b69ba40157bcf8e16c): remove `imuldw`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-int32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`b830e28`](https://github.com/stdlib-js/stdlib/commit/b830e280f9d2df36f473527b62418539844229c9): remove `math/base/ops/imul`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-int32/base/mul` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`b70a6d6`](https://github.com/stdlib-js/stdlib/commit/b70a6d61be09792e9f7b51815223bfab2b3139b2): remove `imul`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-int32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799): remove `mulf` from `math/base/ops` namespace
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
+
+-   [`29cc785`](https://github.com/stdlib-js/stdlib/commit/29cc785ee4c0d56aff6a5a2dda3dbf9ad90fbc71): remove `math/base/ops/umul`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-uint32/base/mul` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`ba7f7ab`](https://github.com/stdlib-js/stdlib/commit/ba7f7ab1afb8f31f763f21ddfaae4937e333d757): remove `umul`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-uint32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1): remove `mulf` symbol
+
+    -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
+
+-   [`c0aca6a`](https://github.com/stdlib-js/stdlib/commit/c0aca6aff2bbf9141fe738dba75c652bcfbe57d0): remove `math/base/ops/subf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float32/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`80f11b8`](https://github.com/stdlib-js/stdlib/commit/80f11b8ab164070e9caa9d1940925c0258f5322c): remove `subf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-float32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats-strided` namespace.
+
+-   [`910ed0a`](https://github.com/stdlib-js/stdlib/commit/910ed0a3d5c4efab8a59308499ab5fd4aa0d136f): remove `math/base/ops/mulf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float32/base/mul` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`0667356`](https://github.com/stdlib-js/stdlib/commit/0667356f8cd3b95699e57d29fe2e4f4d3fdb671c): remove `mulf`
+
+    -   To migrate, users should access the same symbol via the
+        `@stdlib/number-float32/base` namespace.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
+-   [`72c6513`](https://github.com/stdlib-js/stdlib/commit/72c6513ad86ddf20c6fe38ecabbbf2b17a112582): remove `math/base/ops/divf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float32/base/div` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`35875b3`](https://github.com/stdlib-js/stdlib/commit/35875b3b4162a530c02e72e8444589053fd1cb2d): remove `math/base/ops/sub`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/sub` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`0f7955c`](https://github.com/stdlib-js/stdlib/commit/0f7955ca28cb90556930d603e0784129011b8480): remove `math/base/ops/div`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/div` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`e7ab8a5`](https://github.com/stdlib-js/stdlib/commit/e7ab8a5aaeee5e088db91cbd7b1184a8b7ccde38): remove `math/base/ops/mul`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/mul` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
+
+    -   To migrate, users should access `dmaxabs` via the `stats/strided` namespace.
+
+-   [`ec08225`](https://github.com/stdlib-js/stdlib/commit/ec0822505673b3032e591de02a9e0dc67b598f81): remove `math/base/ops/addf`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float32/base/add` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
+
+-   [`cfa99a4`](https://github.com/stdlib-js/stdlib/commit/cfa99a44297521f94fb485a4f3009b6070340728): remove `math/base/ops/add5`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/add5` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
+
+    -   To migrate, users should access those symbols in the `number/float64/base` namespace.
+
+-   [`e621529`](https://github.com/stdlib-js/stdlib/commit/e6215295bef94ff94f5b6d7a893c99283725d7c9): remove `math/base/ops/add4`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/add4` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`69d0ade`](https://github.com/stdlib-js/stdlib/commit/69d0adefc17b11a444273ec9afac7246a8f5b3cb): remove `math/base/ops/add3`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/add3` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: na
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: na
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
+-   [`b253140`](https://github.com/stdlib-js/stdlib/commit/b253140185322817c25fd8e3bb238703d013727a): remove `math/base/ops/add`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/number-float64/base/add` which provides the same API and
+        implementation.
+        Ref: https://github.com/stdlib-js/stdlib/issues/2261
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: na
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: na
+        ---
+
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
 
     -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
@@ -3450,9 +9587,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 18 issues were closed in this release:
 
-[#225](https://github.com/stdlib-js/stdlib/issues/225), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393)
+[#122](https://github.com/stdlib-js/stdlib/issues/122), [#216](https://github.com/stdlib-js/stdlib/pull/216), [#225](https://github.com/stdlib-js/stdlib/issues/225), [#649](https://github.com/stdlib-js/stdlib/issues/649), [#3393](https://github.com/stdlib-js/stdlib/issues/3393), [#5105](https://github.com/stdlib-js/stdlib/issues/5105), [#5199](https://github.com/stdlib-js/stdlib/issues/5199), [#5274](https://github.com/stdlib-js/stdlib/issues/5274), [#5359](https://github.com/stdlib-js/stdlib/issues/5359), [#5360](https://github.com/stdlib-js/stdlib/issues/5360), [#5363](https://github.com/stdlib-js/stdlib/issues/5363), [#5398](https://github.com/stdlib-js/stdlib/issues/5398), [#5399](https://github.com/stdlib-js/stdlib/issues/5399), [#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5893](https://github.com/stdlib-js/stdlib/issues/5893), [#5898](https://github.com/stdlib-js/stdlib/issues/5898), [#5961](https://github.com/stdlib-js/stdlib/issues/5961), [#6005](https://github.com/stdlib-js/stdlib/issues/6005)
 
 </section>
 
@@ -3462,16 +9599,30 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 22 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhijit Raut
 -   Aman Bhansali
 -   Athan Reines
 -   Ayaka
+-   Dhruv Arvind Singh
+-   GK Bishnoi
+-   Gautam sharma
 -   Gunj Joshi
 -   Gururaj Gurram
+-   Harsh
+-   Jaison D Souza
+-   Jalaj Kumar
+-   Jay Soni
+-   Karan Anand
+-   Krishnam Agarwal
+-   Neeraj Pathak
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
+-   Saurabh Singh
+-   Vivek Maurya
+-   ditsu
 
 </section>
 
@@ -3483,6 +9634,258 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a9bed73`](https://github.com/stdlib-js/stdlib/commit/a9bed737181a958f0a37ea636c5abf3b8eed9bed) - **remove:** remove `math/base/ops` _(by Gururaj Gurram)_
+-   [`e1f1349`](https://github.com/stdlib-js/stdlib/commit/e1f134937128a2c37019d10b0763f720da3d0890) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`dc3f40e`](https://github.com/stdlib-js/stdlib/commit/dc3f40ee482c788aa64b5e18840f9ca914044b1a) - **remove:** remove `ops` from namespace _(by Gururaj Gurram)_
+-   [`b103cae`](https://github.com/stdlib-js/stdlib/commit/b103caebeb565cdcdc08a76cd131ad1ea0b55a27) - **bench:** update random value generation [(#6301)](https://github.com/stdlib-js/stdlib/pull/6301) _(by Harsh, stdlib-bot)_
+-   [`6187773`](https://github.com/stdlib-js/stdlib/commit/6187773d4d95c73e0e8a8f6c43dcd53d5323f9d2) - **bench:** update random value generation [(#6298)](https://github.com/stdlib-js/stdlib/pull/6298) _(by Harsh)_
+-   [`44445ab`](https://github.com/stdlib-js/stdlib/commit/44445ab0a65a29e3bb593a11f87d9035e552474f) - **bench:** update random value generation [(#6302)](https://github.com/stdlib-js/stdlib/pull/6302) _(by Harsh)_
+-   [`d3bf998`](https://github.com/stdlib-js/stdlib/commit/d3bf998980b55e4a0ad53ad3b9053c9b12204b0e) - **bench:** update random value generation [(#6269)](https://github.com/stdlib-js/stdlib/pull/6269) _(by Harsh, Athan Reines)_
+-   [`5b45d4b`](https://github.com/stdlib-js/stdlib/commit/5b45d4b48b3cff026b41a744f16ecc49d97af267) - **bench:** update random value generation [(#6288)](https://github.com/stdlib-js/stdlib/pull/6288) _(by Harsh)_
+-   [`9ce2dec`](https://github.com/stdlib-js/stdlib/commit/9ce2decfd41d8cfd950983bcb8247287c42e9b33) - **bench:** update random value generation [(#6289)](https://github.com/stdlib-js/stdlib/pull/6289) _(by Harsh)_
+-   [`1ea9a67`](https://github.com/stdlib-js/stdlib/commit/1ea9a671f0486cd91924f92380ab5a5ff315a445) - **bench:** update random value generation [(#6291)](https://github.com/stdlib-js/stdlib/pull/6291) _(by Harsh)_
+-   [`305348b`](https://github.com/stdlib-js/stdlib/commit/305348b735548c20bc9cca738761d2d867df0f00) - **bench:** update random value generation [(#6264)](https://github.com/stdlib-js/stdlib/pull/6264) _(by Harsh)_
+-   [`afd63f8`](https://github.com/stdlib-js/stdlib/commit/afd63f8c606a77b7030e060499e38f398512bf96) - **bench:** update random value generation [(#6265)](https://github.com/stdlib-js/stdlib/pull/6265) _(by Harsh)_
+-   [`cbceb64`](https://github.com/stdlib-js/stdlib/commit/cbceb6427c61440800ca0126f2abbe2d19817ec2) - **bench:** update random value generation [(#6267)](https://github.com/stdlib-js/stdlib/pull/6267) _(by Harsh)_
+-   [`850472b`](https://github.com/stdlib-js/stdlib/commit/850472b35f4cf47cab44047acd94a9120d6d5b77) - **docs:** replace manual `for` loop in examples [(#6182)](https://github.com/stdlib-js/stdlib/pull/6182) _(by Karan Anand)_
+-   [`27c7679`](https://github.com/stdlib-js/stdlib/commit/27c767906c6b36140a9536cbb00946276eabdb6a) - **chore:** address commit comment [(#5943)](https://github.com/stdlib-js/stdlib/pull/5943) _(by Jalaj Kumar, Athan Reines)_
+-   [`5a2afad`](https://github.com/stdlib-js/stdlib/commit/5a2afad7603802248e8efb235a998aa2971cf646) - **feat:** add `D_F` macro in `math/base/napi/unary` [(#6253)](https://github.com/stdlib-js/stdlib/pull/6253) _(by Karan Anand, Athan Reines)_
+-   [`d20e133`](https://github.com/stdlib-js/stdlib/commit/d20e1335e8ca73bb8821c01a654416040ea3588e) - **bench:** update random value generation [(#6231)](https://github.com/stdlib-js/stdlib/pull/6231) _(by Harsh, Athan Reines)_
+-   [`dfb9b3f`](https://github.com/stdlib-js/stdlib/commit/dfb9b3fcfd3506427d3965ab98a1fe7953c92e24) - **bench:** update random value generation [(#6234)](https://github.com/stdlib-js/stdlib/pull/6234) _(by Harsh, Athan Reines)_
+-   [`811e510`](https://github.com/stdlib-js/stdlib/commit/811e5106adc9ab855d7992985e1719fc25642125) - **bench:** update random value generation [(#6232)](https://github.com/stdlib-js/stdlib/pull/6232) _(by Harsh, Athan Reines)_
+-   [`d39d0fa`](https://github.com/stdlib-js/stdlib/commit/d39d0fa9bc25909af6cbfc07c18c88a1dd7c3ce6) - **docs:** update namespace table of contents [(#6218)](https://github.com/stdlib-js/stdlib/pull/6218) _(by stdlib-bot)_
+-   [`3de5b71`](https://github.com/stdlib-js/stdlib/commit/3de5b71fc9452ae74354907e2c346a7c1e92b4a8) - **bench:** update random value generation [(#6158)](https://github.com/stdlib-js/stdlib/pull/6158) _(by Harsh)_
+-   [`44d40da`](https://github.com/stdlib-js/stdlib/commit/44d40dac55720aa7f822fb97bb0c6d4ca0599cf8) - **bench:** update random value generation [(#6160)](https://github.com/stdlib-js/stdlib/pull/6160) _(by Harsh)_
+-   [`1f50c39`](https://github.com/stdlib-js/stdlib/commit/1f50c39f80b82063df058f738e1798e192ca0911) - **bench:** update random value generation [(#6164)](https://github.com/stdlib-js/stdlib/pull/6164) _(by Harsh)_
+-   [`6417ebc`](https://github.com/stdlib-js/stdlib/commit/6417ebc2af5c3c066ce82f90aeab1ec0f8f43905) - **bench:** update random value generation [(#6199)](https://github.com/stdlib-js/stdlib/pull/6199) _(by Harsh)_
+-   [`3a03010`](https://github.com/stdlib-js/stdlib/commit/3a030103e5405100c7663a76c0f98cefa13bad78) - **bench:** update random value generation [(#6204)](https://github.com/stdlib-js/stdlib/pull/6204) _(by Harsh)_
+-   [`8959b08`](https://github.com/stdlib-js/stdlib/commit/8959b0832d8a7d7f9ed8f56b43b7866af72554bd) - **chore:** fix C lint errors [(#6194)](https://github.com/stdlib-js/stdlib/pull/6194) _(by Jay Soni)_
+-   [`2dcec61`](https://github.com/stdlib-js/stdlib/commit/2dcec616498aa8ccab060bd761a9fd626f00035e) - **remove:** remove `math/base/special/cidentityf` _(by Gururaj Gurram)_
+-   [`845e64a`](https://github.com/stdlib-js/stdlib/commit/845e64a2f7e12bd60729097230774569b2d4954e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f4a06d9`](https://github.com/stdlib-js/stdlib/commit/f4a06d9b7c3a5075166a8af3cb3643798f35cc2f) - **remove:** remove `cidentityf` from namespace _(by Gururaj Gurram)_
+-   [`cec0ff2`](https://github.com/stdlib-js/stdlib/commit/cec0ff2dd184b40e4253affb9656633e2832a341) - **remove:** remove `cadd` from namespace [(#6144)](https://github.com/stdlib-js/stdlib/pull/6144) _(by Gururaj Gurram)_
+-   [`b6ae0c9`](https://github.com/stdlib-js/stdlib/commit/b6ae0c97e3badc205cd9e6a81ff7c9d1838851c5) - **docs:** update namespace table of contents [(#6139)](https://github.com/stdlib-js/stdlib/pull/6139) _(by stdlib-bot)_
+-   [`7a67cff`](https://github.com/stdlib-js/stdlib/commit/7a67cfff161e9d66bb3c624d45a4428766efb007) - **remove:** remove `math/base/special/cidentity` _(by Gururaj Gurram)_
+-   [`74826d6`](https://github.com/stdlib-js/stdlib/commit/74826d6d9c5c800da64c3a9821a511fef2fd0a67) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`0ebeaf8`](https://github.com/stdlib-js/stdlib/commit/0ebeaf89ad1af59fb5e998d259d717a588fdcbb3) - **remove:** remove `cidentity` from namespace _(by Gururaj Gurram)_
+-   [`26a8bde`](https://github.com/stdlib-js/stdlib/commit/26a8bde129651f72cf48f5dffd93a94793879103) - **remove:** remove `cmulf` from namespace [(#6124)](https://github.com/stdlib-js/stdlib/pull/6124) _(by Gururaj Gurram)_
+-   [`53bb578`](https://github.com/stdlib-js/stdlib/commit/53bb578118172e65c51bee68712fcac8526011c1) - **remove:** remove `math/base/special/identityf` _(by Gururaj Gurram)_
+-   [`74b15bb`](https://github.com/stdlib-js/stdlib/commit/74b15bba6c22bcdd23d61a4e8996a59c7ef0f041) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`36d3db3`](https://github.com/stdlib-js/stdlib/commit/36d3db3e658584389593390b81866b367bf9c5fa) - **remove:** remove `identityf` from namespace _(by Gururaj Gurram)_
+-   [`6b695a6`](https://github.com/stdlib-js/stdlib/commit/6b695a65b8b621a980a7f452d9a2a63a2b3be848) - **remove:** remove `caddf` from namespace [(#6120)](https://github.com/stdlib-js/stdlib/pull/6120) _(by Gururaj Gurram)_
+-   [`77d3b84`](https://github.com/stdlib-js/stdlib/commit/77d3b84fcc127a32ccce5f9d9abccac7a41b52ea) - **chore:** rename variable for consistency [(#6113)](https://github.com/stdlib-js/stdlib/pull/6113) _(by Harsh)_
+-   [`7ec867d`](https://github.com/stdlib-js/stdlib/commit/7ec867d8e7c398f6b6774ccc35ff093a090e913f) - **chore:** resolve JavaScript lint errors [(#5967)](https://github.com/stdlib-js/stdlib/pull/5967) _(by Gautam sharma, Aayush Khanna)_
+-   [`640dfe9`](https://github.com/stdlib-js/stdlib/commit/640dfe977495e9b320a64ab326e5ff5330a1fd8b) - **remove:** remove `math/base/special/identity` _(by Gururaj Gurram)_
+-   [`3938b26`](https://github.com/stdlib-js/stdlib/commit/3938b265e603116448c89fcaa58df70e79d40f59) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3fa0763`](https://github.com/stdlib-js/stdlib/commit/3fa0763e1264cb2d9b3560735aa57e51c66ff2de) - **remove:** remove `identity` from namespace _(by Gururaj Gurram)_
+-   [`b93bbb1`](https://github.com/stdlib-js/stdlib/commit/b93bbb19d5f3142b563064cfc732640ee0659e2c) - **docs:** replace manual `for` loop in examples _(by Athan Reines)_
+-   [`8f9dfb3`](https://github.com/stdlib-js/stdlib/commit/8f9dfb38f791c501d891bf62863866572054dcc3) - **remove:** remove `sub` from namespace _(by Gururaj Gurram)_
+-   [`39e505f`](https://github.com/stdlib-js/stdlib/commit/39e505f50432543c5e6c76c85392e59846ce58c6) - **remove:** remove `math/base/ops/csubf` _(by Gururaj Gurram)_
+-   [`89ecfe0`](https://github.com/stdlib-js/stdlib/commit/89ecfe0212aef0448017f8e404a3862fda851170) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`9135b25`](https://github.com/stdlib-js/stdlib/commit/9135b2502ee1a115427811d3f318e61bfdabfbdb) - **remove:** remove `csubf` from namespace _(by Gururaj Gurram)_
+-   [`1066fde`](https://github.com/stdlib-js/stdlib/commit/1066fde79df3eaee809032eae0306bcb6aab1536) - **remove:** remove `mul` from namespace _(by Gururaj Gurram)_
+-   [`4f3510f`](https://github.com/stdlib-js/stdlib/commit/4f3510f0c5848aff37e1ce441543e2eb5e6eddd5) - **remove:** remove `math/base/ops/csub` _(by Gururaj Gurram)_
+-   [`c7c1fb3`](https://github.com/stdlib-js/stdlib/commit/c7c1fb325f010a77313c58bfd51598af47720d89) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`d631175`](https://github.com/stdlib-js/stdlib/commit/d631175c656a69d5f72f9c31789832508cb585be) - **remove:** remove `csub` from namespace _(by Gururaj Gurram)_
+-   [`5cc0967`](https://github.com/stdlib-js/stdlib/commit/5cc0967af847836f11be2f3ce41f56c2d5345530) - **docs:** update namespace table of contents [(#6060)](https://github.com/stdlib-js/stdlib/pull/6060) _(by stdlib-bot)_
+-   [`0c06190`](https://github.com/stdlib-js/stdlib/commit/0c0619036e1d1c2eea8d3996fb7a8488fc881032) - **remove:** remove `div` from namespace _(by Gururaj Gurram)_
+-   [`bfb8cf2`](https://github.com/stdlib-js/stdlib/commit/bfb8cf278c204e83d1d3c9bae6e37553f1827345) - **remove:** remove `math/base/ops/cnegf` _(by Gururaj Gurram)_
+-   [`bde09b5`](https://github.com/stdlib-js/stdlib/commit/bde09b5464e1faab4b01b03509626755c661db20) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`975673b`](https://github.com/stdlib-js/stdlib/commit/975673bff1cb9bd1b313e79ad4ee7595142fe1ff) - **remove:** remove `cnegf` from namespace _(by Gururaj Gurram)_
+-   [`c741f19`](https://github.com/stdlib-js/stdlib/commit/c741f19410c565ec113a79a399dde2181761ad94) - **bench:** update random value generation [(#6036)](https://github.com/stdlib-js/stdlib/pull/6036) _(by Karan Anand)_
+-   [`2c13316`](https://github.com/stdlib-js/stdlib/commit/2c13316e1383216d08ab1c1560ddcaf8c6ba414b) - **bench:** update random value generation [(#6037)](https://github.com/stdlib-js/stdlib/pull/6037) _(by Karan Anand)_
+-   [`216ed03`](https://github.com/stdlib-js/stdlib/commit/216ed034f920b72bd4ffc82724285333d28e33cc) - **docs:** update namespace table of contents [(#6010)](https://github.com/stdlib-js/stdlib/pull/6010) _(by stdlib-bot, Athan Reines)_
+-   [`f8e419f`](https://github.com/stdlib-js/stdlib/commit/f8e419fd8c741b7a6dd062c570fccc18cb7b2b61) - **remove:** remove `math/base/ops/cneg` _(by Gururaj Gurram)_
+-   [`adef168`](https://github.com/stdlib-js/stdlib/commit/adef168dccaecd20560002341c76e9bb06794c6d) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`112db79`](https://github.com/stdlib-js/stdlib/commit/112db79f8adcf64554e4b246c08c3462a6fb1451) - **remove:** remove `cneg` from namespace _(by Gururaj Gurram)_
+-   [`e196811`](https://github.com/stdlib-js/stdlib/commit/e196811330529364e4bf889dc9df2f74f3bf5cb9) - **bench:** update random value generation [(#5987)](https://github.com/stdlib-js/stdlib/pull/5987) _(by Karan Anand)_
+-   [`9752725`](https://github.com/stdlib-js/stdlib/commit/9752725fc04e4a14c4460d3ef7e188ad80bb3d60) - **remove:** remove `math/base/ops/cdiv` _(by Gururaj Gurram)_
+-   [`3bad287`](https://github.com/stdlib-js/stdlib/commit/3bad287c1589abf75463bbb43311c22d4a991c22) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ec9247d`](https://github.com/stdlib-js/stdlib/commit/ec9247d8f9fdefc32a28a68ed0bbae29898f5c81) - **remove:** remove `cdiv` from namespace _(by Gururaj Gurram)_
+-   [`9708f63`](https://github.com/stdlib-js/stdlib/commit/9708f637cb250d194c0c86cdb4605bb15c95e4a5) - **bench:** refactor benchmarks in `math/base/special/asec` [(#5959)](https://github.com/stdlib-js/stdlib/pull/5959) _(by Gururaj Gurram, Athan Reines)_
+-   [`daee91a`](https://github.com/stdlib-js/stdlib/commit/daee91a9b272effbc3d8801225957d2bbb5b44b2) - **remove:** remove `divf` from namespace [(#5958)](https://github.com/stdlib-js/stdlib/pull/5958) _(by Gururaj Gurram)_
+-   [`fccc0b2`](https://github.com/stdlib-js/stdlib/commit/fccc0b294aa5be12f8e08aa2b7085c2a978de30c) - **chore:** update `runner.jl` to follow current project conventions [(#5988)](https://github.com/stdlib-js/stdlib/pull/5988) _(by Karan Anand)_
+-   [`4748a5a`](https://github.com/stdlib-js/stdlib/commit/4748a5a2ba84c637c10515c018a9f5162f42c8ee) - **chore(sincosd):** address commit comments [(#5955)](https://github.com/stdlib-js/stdlib/pull/5955) _(by Jaison D Souza)_
+-   [`874ec3b`](https://github.com/stdlib-js/stdlib/commit/874ec3b3165424a92f43cb2bb843cf949eece5a8) - **fix:** update `math/base/special/tand` to match correct reference implementation [(#5807)](https://github.com/stdlib-js/stdlib/pull/5807) _(by Karan Anand)_
+-   [`f8fb944`](https://github.com/stdlib-js/stdlib/commit/f8fb944573e11a46abeddcf205f4efec0aa3a5ad) - **bench:** refactor benchmarks in `math/base/special/gamma` [(#5884)](https://github.com/stdlib-js/stdlib/pull/5884) _(by Gururaj Gurram)_
+-   [`a12b502`](https://github.com/stdlib-js/stdlib/commit/a12b5024dd873533a9fb16a01cb2760349197a2f) - **test:** validate implementation against Julia test fixtures [(#5847)](https://github.com/stdlib-js/stdlib/pull/5847) _(by Karan Anand)_
+-   [`90f8a26`](https://github.com/stdlib-js/stdlib/commit/90f8a2641c1ca3f288ff45faa65b5f6b148eb203) - **test:** validate implementation against Julia test fixtures [(#5942)](https://github.com/stdlib-js/stdlib/pull/5942) _(by Karan Anand)_
+-   [`b62a24d`](https://github.com/stdlib-js/stdlib/commit/b62a24d62532fdccf36f8c66823d0d020ba532fd) - **test:** validate implementation against Julia test fixtures [(#5944)](https://github.com/stdlib-js/stdlib/pull/5944) _(by Karan Anand)_
+-   [`83b446f`](https://github.com/stdlib-js/stdlib/commit/83b446ffb685852b7d1d7d339a8e68c36b46a330) - **docs:** update namespace table of contents [(#5907)](https://github.com/stdlib-js/stdlib/pull/5907) _(by stdlib-bot)_
+-   [`7398503`](https://github.com/stdlib-js/stdlib/commit/7398503d9c24fd184ec56f06181fa28f3a32aac0) - **remove:** remove `math/base/ops/umuldw` _(by Gururaj Gurram)_
+-   [`b709cec`](https://github.com/stdlib-js/stdlib/commit/b709cec2e463ba1af5406e3c08a219036941dd09) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`782bbfd`](https://github.com/stdlib-js/stdlib/commit/782bbfd4fca9765fc4a916aa2a4d4701647c7a19) - **remove:** remove `umuldw` from namespace _(by Gururaj Gurram)_
+-   [`6fa8a1b`](https://github.com/stdlib-js/stdlib/commit/6fa8a1bb1c4963e417439f8730a5799a8c013d86) - **chore:** address commit comments [(#5875)](https://github.com/stdlib-js/stdlib/pull/5875) _(by Karan Anand)_
+-   [`b2a6bb8`](https://github.com/stdlib-js/stdlib/commit/b2a6bb80465a0d6dcc78f4edaddf719e62d89004) - **remove:** remove `math/base/ops/imuldw` _(by Gururaj Gurram)_
+-   [`9a6831e`](https://github.com/stdlib-js/stdlib/commit/9a6831eb31d985baec5ca19f5286e5756bacad8f) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b2228a8`](https://github.com/stdlib-js/stdlib/commit/b2228a8607c4ec969a1896b69ba40157bcf8e16c) - **remove:** remove `imuldw` from namespace _(by Gururaj Gurram)_
+-   [`b688f77`](https://github.com/stdlib-js/stdlib/commit/b688f776dca5b304aa3360bd5716d1d44e5ee846) - **docs:** update namespace TypeScript declarations [(#5868)](https://github.com/stdlib-js/stdlib/pull/5868) _(by stdlib-bot)_
+-   [`c52b466`](https://github.com/stdlib-js/stdlib/commit/c52b4669f8f55271054c3e0fc1c959e4d5de2d29) - **docs:** update namespace table of contents [(#5870)](https://github.com/stdlib-js/stdlib/pull/5870) _(by stdlib-bot)_
+-   [`9c97323`](https://github.com/stdlib-js/stdlib/commit/9c97323a8d2417f53c7fa94009b67e7b26212842) - **test:** fix use of `tape.skip` [(#5872)](https://github.com/stdlib-js/stdlib/pull/5872) _(by Karan Anand)_
+-   [`1229ea7`](https://github.com/stdlib-js/stdlib/commit/1229ea77f838afd290122ab1470796312785be9a) - **remove:** remove `addf` from namespace [(#5737)](https://github.com/stdlib-js/stdlib/pull/5737) _(by Gururaj Gurram)_
+-   [`83f88d9`](https://github.com/stdlib-js/stdlib/commit/83f88d9366f1b39342a43ddfc6e36273be38a4ee) - **docs:** update function descriptions [(#5866)](https://github.com/stdlib-js/stdlib/pull/5866) _(by Karan Anand)_
+-   [`6d7317a`](https://github.com/stdlib-js/stdlib/commit/6d7317af46884dca86c9775ca98d5c275d5fe05a) - **feat:** add `math/base/special/sincosd` [(#5837)](https://github.com/stdlib-js/stdlib/pull/5837) _(by Karan Anand, Gunj Joshi)_
+-   [`75941b9`](https://github.com/stdlib-js/stdlib/commit/75941b94bd2713c857146756596925bb4299af6e) - **fix:** update `math/base/special/cotd` to match correct reference implementation [(#5813)](https://github.com/stdlib-js/stdlib/pull/5813) _(by Karan Anand)_
+-   [`73d8eb8`](https://github.com/stdlib-js/stdlib/commit/73d8eb85e52e10d7928ec64809752baa2b23e4cc) - **bench:** refactor random generation in `math/base/special/ceil*` [(#5834)](https://github.com/stdlib-js/stdlib/pull/5834) _(by Saurabh Singh)_
+-   [`1e8a149`](https://github.com/stdlib-js/stdlib/commit/1e8a1497524689db341608fb6a04e7adb6b9e90d) - **bench:** replace custom `sincos` function with built-in Julia implementation [(#5838)](https://github.com/stdlib-js/stdlib/pull/5838) _(by Karan Anand)_
+-   [`1f73fef`](https://github.com/stdlib-js/stdlib/commit/1f73fef9451cc77da8f45dfeb28c359685321859) - **docs:** update namespace TypeScript declarations [(#5816)](https://github.com/stdlib-js/stdlib/pull/5816) _(by stdlib-bot)_
+-   [`406337f`](https://github.com/stdlib-js/stdlib/commit/406337fc2a5709ef967afbd6be8b25b0a89a3c30) - **fix:** update `math/base/special/cscd` to match correct reference implementation [(#5811)](https://github.com/stdlib-js/stdlib/pull/5811) _(by Karan Anand)_
+-   [`f5459a7`](https://github.com/stdlib-js/stdlib/commit/f5459a759caf08cf4fb882609678e878785d6dc7) - **fix:** update `math/base/special/secd` to match correct reference implementation [(#5810)](https://github.com/stdlib-js/stdlib/pull/5810) _(by Karan Anand)_
+-   [`3f0943b`](https://github.com/stdlib-js/stdlib/commit/3f0943b050f49d96debc6c362ca759bf95f440aa) - **feat:** add `math/base/special/sind` [(#5435)](https://github.com/stdlib-js/stdlib/pull/5435) _(by Karan Anand, stdlib-bot)_
+-   [`9b2d78d`](https://github.com/stdlib-js/stdlib/commit/9b2d78de67da47208451b8e6bbb7c1747a6e4854) - **bench:** refactor random value generation [(#5465)](https://github.com/stdlib-js/stdlib/pull/5465) _(by Saurabh Singh, stdlib-bot)_
+-   [`394de5a`](https://github.com/stdlib-js/stdlib/commit/394de5ad015e5389b976ec5dce58986e1fb17735) - **bench:** update random value generation [(#5786)](https://github.com/stdlib-js/stdlib/pull/5786) _(by Karan Anand)_
+-   [`8c9c9f2`](https://github.com/stdlib-js/stdlib/commit/8c9c9f294b1772cfc13b6c3b501719743b81bb08) - **bench:** update random value generation [(#5787)](https://github.com/stdlib-js/stdlib/pull/5787) _(by Karan Anand, Karan Anand)_
+-   [`b947812`](https://github.com/stdlib-js/stdlib/commit/b947812d45606e52f8f3e0ab22f6355f59eb1c49) - **fix:** update `math/base/special/cosd` to match correct reference implementation [(#5473)](https://github.com/stdlib-js/stdlib/pull/5473) _(by Karan Anand, Gunj Joshi)_
+-   [`a1e8f03`](https://github.com/stdlib-js/stdlib/commit/a1e8f03af0ee470d0783cb840878dc7cde0826c3) - **chore:** fix EditorConfig lint errors [(#5543)](https://github.com/stdlib-js/stdlib/pull/5543) _(by ditsu, Athan Reines, Philipp Burckhardt)_
+-   [`886e85a`](https://github.com/stdlib-js/stdlib/commit/886e85abd4bd0515526e273919b43e00a93d7264) - **docs:** fix C lint errors [(#5408)](https://github.com/stdlib-js/stdlib/pull/5408) _(by Neeraj Pathak)_
+-   [`fab250c`](https://github.com/stdlib-js/stdlib/commit/fab250c7a179fa8aee1321fba6df32266f82c184) - **style:** fix lint errors [(#5416)](https://github.com/stdlib-js/stdlib/pull/5416) _(by Krishnam Agarwal)_
+-   [`b830e28`](https://github.com/stdlib-js/stdlib/commit/b830e280f9d2df36f473527b62418539844229c9) - **remove:** remove `math/base/ops/imul` _(by Gururaj Gurram)_
+-   [`2540748`](https://github.com/stdlib-js/stdlib/commit/2540748e5850b4f7e8268904faeec1f2e9cb7bfd) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b70a6d6`](https://github.com/stdlib-js/stdlib/commit/b70a6d61be09792e9f7b51815223bfab2b3139b2) - **remove:** remove `imul` from namespace _(by Gururaj Gurram)_
+-   [`1770970`](https://github.com/stdlib-js/stdlib/commit/17709703d0516442352be88ec16887dd4f95d42c) - **docs:** fix types _(by Athan Reines)_
+-   [`e40aa38`](https://github.com/stdlib-js/stdlib/commit/e40aa38b11d19c9e9c00743e5dcc2e484ce10e5f) - **docs:** update namespace table of contents [(#5724)](https://github.com/stdlib-js/stdlib/pull/5724) _(by stdlib-bot)_
+-   [`52c0299`](https://github.com/stdlib-js/stdlib/commit/52c02996d6ddb17cd20e7d166c7d0605401a33d7) - **bench:** refactor random number generation [(#5397)](https://github.com/stdlib-js/stdlib/pull/5397) _(by Saurabh Singh)_
+-   [`18ad933`](https://github.com/stdlib-js/stdlib/commit/18ad933e9ddbf7eb689531e22d81640b164f73f0) - **docs:** fix typo by replacing `int_32` with `int32_t` [(#5546)](https://github.com/stdlib-js/stdlib/pull/5546) _(by Karan Anand, stdlib-bot)_
+-   [`8da699b`](https://github.com/stdlib-js/stdlib/commit/8da699b54580e2139c5cb911176abdb54d36e2c8) - **feat:** add `DIII_D` macro in `math/base/napi/quaternary` [(#5545)](https://github.com/stdlib-js/stdlib/pull/5545) _(by Karan Anand)_
+-   [`b2c926b`](https://github.com/stdlib-js/stdlib/commit/b2c926b286713f2bbeda7becbaf3ad2cdaed1947) - **refactor:** move implementations and macros to separate files [(#5544)](https://github.com/stdlib-js/stdlib/pull/5544) _(by Karan Anand)_
+-   [`183d056`](https://github.com/stdlib-js/stdlib/commit/183d056687e023d43cded450f0d9e4739aaff8bd) - **refactor:** move implementations and macros to separate files [(#5541)](https://github.com/stdlib-js/stdlib/pull/5541) _(by Karan Anand)_
+-   [`ffc6fed`](https://github.com/stdlib-js/stdlib/commit/ffc6fed5cdfdd81d0806cec7aed97afb6de40a24) - **refactor:** move implementations and macros to separate files [(#5540)](https://github.com/stdlib-js/stdlib/pull/5540) _(by Karan Anand, stdlib-bot)_
+-   [`0bd3d46`](https://github.com/stdlib-js/stdlib/commit/0bd3d468411928205902144c8f81c2c5b06f60cc) - **bench:** update random value generation [(#5471)](https://github.com/stdlib-js/stdlib/pull/5471) _(by Karan Anand, Karan Anand)_
+-   [`6dd2fd1`](https://github.com/stdlib-js/stdlib/commit/6dd2fd114ce413fe488ac47dc356e7316e61d843) - **bench:** update random value generation [(#5528)](https://github.com/stdlib-js/stdlib/pull/5528) _(by Karan Anand)_
+-   [`4efada9`](https://github.com/stdlib-js/stdlib/commit/4efada90febbd19180bcba37915b0f19e918348e) - **docs:** update namespace table of contents [(#5513)](https://github.com/stdlib-js/stdlib/pull/5513) _(by stdlib-bot)_
+-   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799) - **feat:** update namespace TypeScript declarations [(#5511)](https://github.com/stdlib-js/stdlib/pull/5511) _(by stdlib-bot)_
+-   [`29cc785`](https://github.com/stdlib-js/stdlib/commit/29cc785ee4c0d56aff6a5a2dda3dbf9ad90fbc71) - **remove:** remove `math/base/ops/umul` _(by Gururaj Gurram)_
+-   [`5260d13`](https://github.com/stdlib-js/stdlib/commit/5260d1347c8cd3f669d47dabe8cc6f954809bb27) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ba7f7ab`](https://github.com/stdlib-js/stdlib/commit/ba7f7ab1afb8f31f763f21ddfaae4937e333d757) - **remove:** remove `umul` from namespace _(by Gururaj Gurram)_
+-   [`420735c`](https://github.com/stdlib-js/stdlib/commit/420735c6cb64dbc72805be947c9b8204b1f9da10) - **bench:** update random value generation [(#5467)](https://github.com/stdlib-js/stdlib/pull/5467) _(by Karan Anand)_
+-   [`4039ae0`](https://github.com/stdlib-js/stdlib/commit/4039ae0c885e813edca9f53211d79b38e911b65a) - **bench:** update random value generation [(#5466)](https://github.com/stdlib-js/stdlib/pull/5466) _(by Karan Anand)_
+-   [`dfc7be6`](https://github.com/stdlib-js/stdlib/commit/dfc7be6493380962a6ef790f6ddccfa570aff6f3) - **fix:** add missing `native.js` to `math/base/special/tribonacci` [(#5472)](https://github.com/stdlib-js/stdlib/pull/5472) _(by Karan Anand, stdlib-bot)_
+-   [`2f0aa48`](https://github.com/stdlib-js/stdlib/commit/2f0aa48ef6d561779d4bd4c4a54fe00a5a26c0e1) - **feat:** update namespace TypeScript declarations [(#5436)](https://github.com/stdlib-js/stdlib/pull/5436) _(by stdlib-bot)_
+-   [`c0aca6a`](https://github.com/stdlib-js/stdlib/commit/c0aca6aff2bbf9141fe738dba75c652bcfbe57d0) - **remove:** remove `math/base/ops/subf` _(by Gururaj Gurram)_
+-   [`5081120`](https://github.com/stdlib-js/stdlib/commit/50811206a32132606851c5b5505c6a1e9b145319) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`80f11b8`](https://github.com/stdlib-js/stdlib/commit/80f11b8ab164070e9caa9d1940925c0258f5322c) - **remove:** remove `subf` from namespace _(by Gururaj Gurram)_
+-   [`0e2afee`](https://github.com/stdlib-js/stdlib/commit/0e2afeeeb0bf31c508ed943c5f0f6fb558a26381) - **bench:** refactor random value generation [(#5374)](https://github.com/stdlib-js/stdlib/pull/5374) _(by Saurabh Singh, Athan Reines)_
+-   [`9d532b5`](https://github.com/stdlib-js/stdlib/commit/9d532b5510055d80c5df8ba4c8e897c1670dcd1a) - **docs:** update namespace table of contents [(#5438)](https://github.com/stdlib-js/stdlib/pull/5438) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`1de4fb4`](https://github.com/stdlib-js/stdlib/commit/1de4fb47e423e6ed0b9777cbb1194245ba1fe349) - **bench:** update random value generation [(#5404)](https://github.com/stdlib-js/stdlib/pull/5404) _(by Karan Anand, Athan Reines)_
+-   [`7e16f5c`](https://github.com/stdlib-js/stdlib/commit/7e16f5c1f65d9f3a69a3e9c3f34c885d8adfca51) - **chore:** fix C lint errors [(#5409)](https://github.com/stdlib-js/stdlib/pull/5409) _(by Neeraj Pathak)_
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - **feat:** update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385) _(by stdlib-bot)_
+-   [`910ed0a`](https://github.com/stdlib-js/stdlib/commit/910ed0a3d5c4efab8a59308499ab5fd4aa0d136f) - **remove:** remove `math/base/ops/mulf` _(by Gururaj Gurram)_
+-   [`1eac550`](https://github.com/stdlib-js/stdlib/commit/1eac550d7e113582faa355fe13dfbb24e02d9238) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`0667356`](https://github.com/stdlib-js/stdlib/commit/0667356f8cd3b95699e57d29fe2e4f4d3fdb671c) - **remove:** remove `mulf` from namespace _(by Gururaj Gurram)_
+-   [`c52b2f9`](https://github.com/stdlib-js/stdlib/commit/c52b2f932d20622b426bfd976039a8a144b901ab) - **bench:** update random value generation [(#5390)](https://github.com/stdlib-js/stdlib/pull/5390) _(by Karan Anand)_
+-   [`afbe56b`](https://github.com/stdlib-js/stdlib/commit/afbe56bcdf992a969b20a912828b42d0cdbe717a) - **docs:** update namespace table of contents [(#5387)](https://github.com/stdlib-js/stdlib/pull/5387) _(by stdlib-bot)_
+-   [`7093864`](https://github.com/stdlib-js/stdlib/commit/7093864134f5f116d880ea7063111942b52f2941) - **chore:** fix EditorConfig lint errors [(#5373)](https://github.com/stdlib-js/stdlib/pull/5373) _(by Krishnam Agarwal)_
+-   [`72c6513`](https://github.com/stdlib-js/stdlib/commit/72c6513ad86ddf20c6fe38ecabbbf2b17a112582) - **remove:** remove `math/base/ops/divf` _(by Gururaj Gurram)_
+-   [`adbcf39`](https://github.com/stdlib-js/stdlib/commit/adbcf39b36d49a9c2876bdc2848e9dac842cf90f) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`69c1704`](https://github.com/stdlib-js/stdlib/commit/69c17043c910ba3aba0bc29c1569ba8396554eca) - **bench:** update random value generation [(#5369)](https://github.com/stdlib-js/stdlib/pull/5369) _(by Karan Anand)_
+-   [`4340425`](https://github.com/stdlib-js/stdlib/commit/434042500ae9d9a5143e7ff87da5a1a97560dbfa) - **bench:** update random value generation [(#5367)](https://github.com/stdlib-js/stdlib/pull/5367) _(by Karan Anand)_
+-   [`6e79eff`](https://github.com/stdlib-js/stdlib/commit/6e79effcec430e8f4ebdb2d6d6734c3fb3263832) - **style:** fix lint errors [(#5370)](https://github.com/stdlib-js/stdlib/pull/5370) _(by Krishnam Agarwal)_
+-   [`6d9ed10`](https://github.com/stdlib-js/stdlib/commit/6d9ed107bc5e674421c5773619a34d5c0fe5a96a) - **chore:** fix C lint errors [(#5291)](https://github.com/stdlib-js/stdlib/pull/5291) _(by GK Bishnoi)_
+-   [`8663446`](https://github.com/stdlib-js/stdlib/commit/86634464cd31d6661514550a89312a18c54af74b) - **feat:** add C implementation for `math/base/special/hyp2f1` [(#5348)](https://github.com/stdlib-js/stdlib/pull/5348) _(by Karan Anand, Athan Reines, stdlib-bot)_
+-   [`54ed22a`](https://github.com/stdlib-js/stdlib/commit/54ed22a2eb989926f99680f33bd8bf700d5759b0) - **docs:** update namespace TypeScript declarations [(#5330)](https://github.com/stdlib-js/stdlib/pull/5330) _(by stdlib-bot)_
+-   [`bf18c77`](https://github.com/stdlib-js/stdlib/commit/bf18c7705ea5e96e733a13f20844bf975a4dac18) - **docs:** update namespace table of contents [(#5351)](https://github.com/stdlib-js/stdlib/pull/5351) _(by stdlib-bot)_
+-   [`35875b3`](https://github.com/stdlib-js/stdlib/commit/35875b3b4162a530c02e72e8444589053fd1cb2d) - **remove:** remove `math/base/ops/sub` _(by Gururaj Gurram)_
+-   [`92761ec`](https://github.com/stdlib-js/stdlib/commit/92761ec746d55b5cd6d48a06276b5e1bffe2cfb0) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`c122b62`](https://github.com/stdlib-js/stdlib/commit/c122b62161a7a9ce7d06562e1083518d7c8130fe) - **bench:** update random value generation [(#5341)](https://github.com/stdlib-js/stdlib/pull/5341) _(by Karan Anand)_
+-   [`07e0d9f`](https://github.com/stdlib-js/stdlib/commit/07e0d9fd8295ed9cc14d7e5d355049de338b075f) - **bench:** update random value generation [(#5336)](https://github.com/stdlib-js/stdlib/pull/5336) _(by Karan Anand)_
+-   [`cd95771`](https://github.com/stdlib-js/stdlib/commit/cd95771e0be630dd906038b89b3ce84ef6bad861) - **bench:** update random value generation [(#5337)](https://github.com/stdlib-js/stdlib/pull/5337) _(by Karan Anand)_
+-   [`df0b96c`](https://github.com/stdlib-js/stdlib/commit/df0b96c8e629a9f773d103fa2c5b25bfcab25a92) - **bench:** update random value generation [(#5338)](https://github.com/stdlib-js/stdlib/pull/5338) _(by Karan Anand)_
+-   [`ff0a6e1`](https://github.com/stdlib-js/stdlib/commit/ff0a6e17e486a6a28990848a5435d0d79bd1e8e9) - **bench:** update random value generation [(#5339)](https://github.com/stdlib-js/stdlib/pull/5339) _(by Karan Anand)_
+-   [`8de7152`](https://github.com/stdlib-js/stdlib/commit/8de7152398c5db23915b171b9a5f685e969c48c2) - **bench:** update random value generation [(#5340)](https://github.com/stdlib-js/stdlib/pull/5340) _(by Karan Anand)_
+-   [`13fc14e`](https://github.com/stdlib-js/stdlib/commit/13fc14e776090d0c8917b7a7a4757dd8b9051d71) - **docs:** update namespace table of contents [(#5332)](https://github.com/stdlib-js/stdlib/pull/5332) _(by stdlib-bot)_
+-   [`0d9e8ca`](https://github.com/stdlib-js/stdlib/commit/0d9e8ca76abe1d9257dd08d5e091c3387931d70c) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_DID_D` macro in `math/base/napi/ternary` [(#5281)](https://github.com/stdlib-js/stdlib/pull/5281) _(by Prashant Kumar Yadav, Athan Reines)_
+-   [`54e5f3f`](https://github.com/stdlib-js/stdlib/commit/54e5f3fa5c74124a374ce28944624b7918b3bf67) - **refactor:** update benchmarks and tests in `math/base/special/acosh` [(#5318)](https://github.com/stdlib-js/stdlib/pull/5318) _(by Karan Anand)_
+-   [`0f7955c`](https://github.com/stdlib-js/stdlib/commit/0f7955ca28cb90556930d603e0784129011b8480) - **remove:** remove `math/base/ops/div` _(by Gururaj Gurram)_
+-   [`e910b33`](https://github.com/stdlib-js/stdlib/commit/e910b3362443e36936a6f3705daf63e032d891dc) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`7ddbcbe`](https://github.com/stdlib-js/stdlib/commit/7ddbcbe83f92390dc20a10164b3b775111aa7267) - **docs:** fix typos in `math/base/ops/subf` [(#5290)](https://github.com/stdlib-js/stdlib/pull/5290) _(by Gururaj Gurram)_
+-   [`c813d0a`](https://github.com/stdlib-js/stdlib/commit/c813d0aa99426f802689af745dd16ccb3929a3d9) - **docs:** update namespace TypeScript declarations [(#5308)](https://github.com/stdlib-js/stdlib/pull/5308) _(by stdlib-bot)_
+-   [`3037993`](https://github.com/stdlib-js/stdlib/commit/3037993cc6603fedea48ca6612edc7462dce2a91) - **docs:** update namespace table of contents [(#5310)](https://github.com/stdlib-js/stdlib/pull/5310) _(by stdlib-bot)_
+-   [`e7ab8a5`](https://github.com/stdlib-js/stdlib/commit/e7ab8a5aaeee5e088db91cbd7b1184a8b7ccde38) - **remove:** remove `math/base/ops/mul` _(by Gururaj Gurram)_
+-   [`eecf3f4`](https://github.com/stdlib-js/stdlib/commit/eecf3f43ccd1e5702f95ed616bef8001ac6eb66c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`cebb74b`](https://github.com/stdlib-js/stdlib/commit/cebb74be47855091969b704a5eb37d4b0e3fec0b) - **feat:** add `math/base/special/hyp2f1` [(#5140)](https://github.com/stdlib-js/stdlib/pull/5140) _(by Karan Anand, stdlib-bot)_
+-   [`16fe13d`](https://github.com/stdlib-js/stdlib/commit/16fe13df2737eafe904d1b0d51eaa856bb216cbc) - **bench:** refactor benchmarks in `math/base/special/acosf` [(#5269)](https://github.com/stdlib-js/stdlib/pull/5269) _(by Karan Anand)_
+-   [`f2dbc9f`](https://github.com/stdlib-js/stdlib/commit/f2dbc9f4fb64fdc66cfd6d8d0a7434dc2a81d2c3) - **bench:** refactor benchmarks and update test messages in `math/base/special/acos` [(#5267)](https://github.com/stdlib-js/stdlib/pull/5267) _(by Karan Anand)_
+-   [`141105c`](https://github.com/stdlib-js/stdlib/commit/141105c4d9fcdcf898460a606641581dc43e3be1) - **bench:** refactor benchmarks and update test messages in `math/base/special/acosd` [(#5268)](https://github.com/stdlib-js/stdlib/pull/5268) _(by Karan Anand)_
+-   [`b385506`](https://github.com/stdlib-js/stdlib/commit/b38550641ecefd82d2c9ad8fcc0dee10ac58e98b) - **bench:** refactor benchmarks and update test messages in `math/base/special/abs2` [(#4972)](https://github.com/stdlib-js/stdlib/pull/4972) _(by Karan Anand)_
+-   [`b1448e4`](https://github.com/stdlib-js/stdlib/commit/b1448e42d0b2f897103635a49be15bfa778784ad) - **bench:** refactor benchmarks and update test messages in `math/base/special/absf` [(#5259)](https://github.com/stdlib-js/stdlib/pull/5259) _(by Karan Anand)_
+-   [`b0abce9`](https://github.com/stdlib-js/stdlib/commit/b0abce97c92c7c8025cdd09e76ed5deec08cb64a) - **bench:** refactor benchmarks and update test messages in `math/base/special/abs2f` [(#5258)](https://github.com/stdlib-js/stdlib/pull/5258) _(by Karan Anand)_
+-   [`6c9505b`](https://github.com/stdlib-js/stdlib/commit/6c9505bc0d1b920718155d7f5118d9b0bd400ff0) - **chore:** fix C lint errors [(#5262)](https://github.com/stdlib-js/stdlib/pull/5262) _(by GK Bishnoi)_
+-   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
+-   [`ec08225`](https://github.com/stdlib-js/stdlib/commit/ec0822505673b3032e591de02a9e0dc67b598f81) - **remove:** remove `math/base/ops/addf` _(by Gururaj Gurram)_
+-   [`2752fe3`](https://github.com/stdlib-js/stdlib/commit/2752fe3ed80c146e8a122c1e7ed442099ba367bc) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`86d5fea`](https://github.com/stdlib-js/stdlib/commit/86d5fea1b11336c6dea72e2247dd71a0304177e0) - **docs:** update namespace table of contents [(#5245)](https://github.com/stdlib-js/stdlib/pull/5245) _(by stdlib-bot)_
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - **feat:** update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243) _(by stdlib-bot)_
+-   [`f6cca6b`](https://github.com/stdlib-js/stdlib/commit/f6cca6bdf3b1699c94c5f40bf2e07d6f879ecccb) - **bench:** refactor benchmarks in `math/base/special/rsqrtf` [(#5223)](https://github.com/stdlib-js/stdlib/pull/5223) _(by Gururaj Gurram, Athan Reines)_
+-   [`cfa99a4`](https://github.com/stdlib-js/stdlib/commit/cfa99a44297521f94fb485a4f3009b6070340728) - **remove:** remove `math/base/ops/add5` _(by Gururaj Gurram)_
+-   [`3ae3c5f`](https://github.com/stdlib-js/stdlib/commit/3ae3c5f79f267ecc17041b6b10d8c543f5f0686c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`9d447dc`](https://github.com/stdlib-js/stdlib/commit/9d447dc24e6c56353c1dceae3bbfd88d11ce2066) - **docs:** update related packages sections [(#5151)](https://github.com/stdlib-js/stdlib/pull/5151) _(by stdlib-bot, Athan Reines)_
+-   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - **feat:** update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130) _(by stdlib-bot)_
+-   [`9ae04b5`](https://github.com/stdlib-js/stdlib/commit/9ae04b5c7607e49078a9ad3cdbb27e3addfaebd2) - **docs:** update namespace table of contents [(#5132)](https://github.com/stdlib-js/stdlib/pull/5132) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`e621529`](https://github.com/stdlib-js/stdlib/commit/e6215295bef94ff94f5b6d7a893c99283725d7c9) - **remove:** remove `math/base/ops/add4` _(by Gururaj Gurram)_
+-   [`60334d6`](https://github.com/stdlib-js/stdlib/commit/60334d6d17a9f29c0045c139b8ede24d1182b870) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ba0c854`](https://github.com/stdlib-js/stdlib/commit/ba0c854e87d0e86d0f7739e26095ec0a0f40c36f) - **docs:** fix function names in C example code _(by Philipp Burckhardt)_
+-   [`58e26cb`](https://github.com/stdlib-js/stdlib/commit/58e26cbf1882734b423124a001180661a6c377bb) - **chore:** fix parameter names, return annotations, and example code _(by Philipp Burckhardt)_
+-   [`69d0ade`](https://github.com/stdlib-js/stdlib/commit/69d0adefc17b11a444273ec9afac7246a8f5b3cb) - **remove:** remove `math/base/ops/add3` _(by Gururaj Gurram)_
+-   [`8da0e78`](https://github.com/stdlib-js/stdlib/commit/8da0e787b914f30db9bafcd1c0804ae2f1a99e36) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b253140`](https://github.com/stdlib-js/stdlib/commit/b253140185322817c25fd8e3bb238703d013727a) - **remove:** remove `math/base/ops/add` _(by Gururaj Gurram)_
+-   [`836170d`](https://github.com/stdlib-js/stdlib/commit/836170decec14309639deb41ae3a3c22256d68af) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b562cf6`](https://github.com/stdlib-js/stdlib/commit/b562cf6a430608fc5c7bc3f1cf1eead7c982b659) - **test:** update function signatures [(#5110)](https://github.com/stdlib-js/stdlib/pull/5110) _(by Aayush Khanna)_
+-   [`f6682eb`](https://github.com/stdlib-js/stdlib/commit/f6682ebd521481cf1c77c3cee2b279b8c19dc264) - **chore:** fix C linting errors in `math/base/ops/imuldw` [(#5107)](https://github.com/stdlib-js/stdlib/pull/5107) _(by Aayush Khanna)_
+-   [`7ce2628`](https://github.com/stdlib-js/stdlib/commit/7ce2628300553de23607c7dd95342cb106b27307) - **refactor:** update `math/base/special/kernel-tan` [(#5017)](https://github.com/stdlib-js/stdlib/pull/5017) _(by Vivek Maurya, Athan Reines)_
+-   [`4714429`](https://github.com/stdlib-js/stdlib/commit/4714429b1acb0ef2634e7a504195a6d1e4004ff7) - **bench:** refactor benchmarks in `math/base/special/rsqrt` [(#5054)](https://github.com/stdlib-js/stdlib/pull/5054) _(by Gururaj Gurram)_
+-   [`fd45831`](https://github.com/stdlib-js/stdlib/commit/fd45831e4ee27601c389c8f1b8b2779a95c8d7b4) - **bench:** refactor benchmarks and update test messages in `math/base/special/round` [(#4950)](https://github.com/stdlib-js/stdlib/pull/4950) _(by Gururaj Gurram, Athan Reines)_
+-   [`cbf1382`](https://github.com/stdlib-js/stdlib/commit/cbf1382a4cad52ed7c30d74282eb9a75474d32e6) - **docs:** update related packages sections [(#4964)](https://github.com/stdlib-js/stdlib/pull/4964) _(by stdlib-bot)_
+-   [`9711748`](https://github.com/stdlib-js/stdlib/commit/9711748a23b2cae8cdf0ff97f4400f1d09e373a7) - **chore:** remove unused dependencies in C implementation [(#4940)](https://github.com/stdlib-js/stdlib/pull/4940) _(by Gururaj Gurram)_
+-   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - **feat:** update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856) _(by stdlib-bot)_
+-   [`15204d7`](https://github.com/stdlib-js/stdlib/commit/15204d79d9a8dfeb4c520e6948813f29972e0aa2) - **docs:** update namespace table of contents [(#4858)](https://github.com/stdlib-js/stdlib/pull/4858) _(by stdlib-bot)_
+-   [`39c7a0a`](https://github.com/stdlib-js/stdlib/commit/39c7a0a67e3e01d3b22b98a4c028d68903dbf14f) - **feat:** add `III_D` macro in `math/base/napi/ternary` [(#4855)](https://github.com/stdlib-js/stdlib/pull/4855) _(by Karan Anand, Athan Reines)_
+-   [`0e011ca`](https://github.com/stdlib-js/stdlib/commit/0e011ca8c06a909d9d424a387f91c34535e0e7c3) - **docs:** update comment _(by Athan Reines)_
+-   [`3224b20`](https://github.com/stdlib-js/stdlib/commit/3224b20061abe3156c282e79c52c5c01282239e7) - **feat:** add `CCC_C` macro _(by Athan Reines)_
+-   [`1994ca1`](https://github.com/stdlib-js/stdlib/commit/1994ca173dad38f7f7b5cbd76e849e70a0f52b15) - **feat:** add `ZZZ_Z` macro _(by Athan Reines)_
+-   [`0e28d1f`](https://github.com/stdlib-js/stdlib/commit/0e28d1ff8e332ace367d7014c0cbe4a3a416fd14) - **refactor:** move implementations and macros to separate files _(by Athan Reines)_
+-   [`894885f`](https://github.com/stdlib-js/stdlib/commit/894885f83d8449b30210e87c30aed433be7832ad) - **feat:** add `FC_C` macro _(by Athan Reines)_
+-   [`89df5ae`](https://github.com/stdlib-js/stdlib/commit/89df5ae1fd161a19ad094eeef14d9b6f17551975) - **docs:** add `DZ_Z` docs _(by Athan Reines)_
+-   [`8a62393`](https://github.com/stdlib-js/stdlib/commit/8a62393548250469afe4e7e34e112a0299da122b) - **docs:** reorder APIs and add missing docs _(by Athan Reines)_
+-   [`cbaae4c`](https://github.com/stdlib-js/stdlib/commit/cbaae4c97c36e4d6b1f62c4bed3a74519d72742e) - **feat:** add `DZ_Z` macro _(by Athan Reines)_
+-   [`bf703d6`](https://github.com/stdlib-js/stdlib/commit/bf703d6a49610e04b628d613a7a0dbf482132890) - **refactor:** move macros and functions to separate files _(by Athan Reines)_
+-   [`7403869`](https://github.com/stdlib-js/stdlib/commit/7403869fadcd39b42c3e1a6f687f712ae77a286d) - **refactor:** use argv float instead of double _(by Philipp Burckhardt)_
+-   [`8ada47e`](https://github.com/stdlib-js/stdlib/commit/8ada47eedd19ea9f21a8edc342ee3583e92ac857) - **chore:** fix indentation _(by Philipp Burckhardt)_
+-   [`8d4fc66`](https://github.com/stdlib-js/stdlib/commit/8d4fc6616ef38fd4ebd06b4cc09fda4a5b111e7a) - **docs:** clean-up examples _(by Athan Reines)_
+-   [`da89fb7`](https://github.com/stdlib-js/stdlib/commit/da89fb740ff5ac2fb205e6b8cb1852b0f9947982) - **refactor:** update `math/base/assert/is-odd` to follow latest project conventions [(#4670)](https://github.com/stdlib-js/stdlib/pull/4670) _(by Vivek Maurya)_
+-   [`3129e35`](https://github.com/stdlib-js/stdlib/commit/3129e35d1daef24899fd03620f1bdd64d292cebd) - **refactor:** update `math/base/assert/is-integer` to follow latest project conventions [(#4627)](https://github.com/stdlib-js/stdlib/pull/4627) _(by Vivek Maurya)_
+-   [`452ba64`](https://github.com/stdlib-js/stdlib/commit/452ba64c898cec9c526ae2201aa149086347ec8e) - **refactor:** update `math/base/assert/is-integerf` to follow latest project conventions [(#4629)](https://github.com/stdlib-js/stdlib/pull/4629) _(by Vivek Maurya)_
+-   [`50843c9`](https://github.com/stdlib-js/stdlib/commit/50843c9502e3c9afa2f58d0957248e8ed3bd4609) - **docs:** update related packages sections [(#4808)](https://github.com/stdlib-js/stdlib/pull/4808) _(by stdlib-bot)_
+-   [`60983a6`](https://github.com/stdlib-js/stdlib/commit/60983a6b6946c48a3e38baeef28d19d76cbdb9c9) - **refactor:** update `math/base/assert/is-finitef` native addon from C++ to C [(#4618)](https://github.com/stdlib-js/stdlib/pull/4618) _(by Dhruv Arvind Singh, Athan Reines, stdlib-bot)_
+-   [`dda206d`](https://github.com/stdlib-js/stdlib/commit/dda206d2e9956129307d8c9561d47ae7111f7af1) - **refactor:** update `math/base/assert/is-nanf` native addon from C++ to C [(#4614)](https://github.com/stdlib-js/stdlib/pull/4614) _(by Dhruv Arvind Singh, Athan Reines)_
+-   [`566ff63`](https://github.com/stdlib-js/stdlib/commit/566ff6356bfaa7b754b9cc13f751604d743fddb2) - **refactor:** update `math/base/assert/is-infinitef` native addon from C++ to C [(#4615)](https://github.com/stdlib-js/stdlib/pull/4615) _(by Dhruv Arvind Singh, Athan Reines)_
+-   [`d962e4c`](https://github.com/stdlib-js/stdlib/commit/d962e4c9a155376b7afbe3f6ad52c76e38c04ed6) - **refactor:** update `math/base/assert/is-finite` native addon from C++ to C [(#4617)](https://github.com/stdlib-js/stdlib/pull/4617) _(by Dhruv Arvind Singh, stdlib-bot)_
+-   [`22a3dcf`](https://github.com/stdlib-js/stdlib/commit/22a3dcfe916b7f5c979d6ee93045d37add5d685d) - **docs:** update namespace TypeScript declaration comments [(#4794)](https://github.com/stdlib-js/stdlib/pull/4794) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`a2133de`](https://github.com/stdlib-js/stdlib/commit/a2133de85c6de60892a54b387dbf7bd1ad58e0c8) - **feat:** add `math/base/special/heavisidef` [(#3374)](https://github.com/stdlib-js/stdlib/pull/3374) _(by Vivek Maurya, Athan Reines, stdlib-bot)_
+-   [`9241c28`](https://github.com/stdlib-js/stdlib/commit/9241c28989dd02e6b247a290793dc8fb33cc09a0) - **docs:** fix return annotation style _(by Philipp Burckhardt)_
+-   [`e91af13`](https://github.com/stdlib-js/stdlib/commit/e91af13bf35384d0ee1163fe3074c79f1a01bc72) - **refactor:** update `math/base/special/hypotf` to follow latest project conventions [(#4783)](https://github.com/stdlib-js/stdlib/pull/4783) _(by Vivek Maurya, Athan Reines)_
+-   [`0900838`](https://github.com/stdlib-js/stdlib/commit/090083855a65254591477cb58966d7b232f3c365) - **refactor:** update `math/base/special/hypot` to follow latest project conventions [(#4765)](https://github.com/stdlib-js/stdlib/pull/4765) _(by Vivek Maurya, Athan Reines)_
+-   [`73a211c`](https://github.com/stdlib-js/stdlib/commit/73a211cc0b17b6ba6d96ff5c4ac06f7889307d7a) - **docs:** update function description and cleanup for `math/base/special/dirac-deltaf` [(#4778)](https://github.com/stdlib-js/stdlib/pull/4778) _(by Aayush Khanna)_
+-   [`5fd0a59`](https://github.com/stdlib-js/stdlib/commit/5fd0a59f372e982a78028b9f249e5ba0921a231f) - **docs:** update examples _(by Athan Reines)_
+-   [`d0d1438`](https://github.com/stdlib-js/stdlib/commit/d0d143871a928a6bd11157c58abb5b17a0f405d4) - **docs:** add missing include _(by Athan Reines)_
+-   [`c794cdb`](https://github.com/stdlib-js/stdlib/commit/c794cdbb6d6c94f04e713589e5c233807bfd3012) - **docs:** update examples _(by Athan Reines)_
+-   [`8a5caba`](https://github.com/stdlib-js/stdlib/commit/8a5caba090beccf502d1d66e31e5c7986dc52e3a) - **docs:** update related packages sections [(#4739)](https://github.com/stdlib-js/stdlib/pull/4739) _(by stdlib-bot)_
+-   [`f0db7f5`](https://github.com/stdlib-js/stdlib/commit/f0db7f5956b712e544fb2cd7c1432feaff516008) - **docs:** update related packages sections [(#4728)](https://github.com/stdlib-js/stdlib/pull/4728) _(by stdlib-bot)_
+-   [`9f23be0`](https://github.com/stdlib-js/stdlib/commit/9f23be0621e3c986516d30ee60b19492f0de7f12) - **docs:** update examples _(by Athan Reines)_
+-   [`cbf9861`](https://github.com/stdlib-js/stdlib/commit/cbf9861ff75550ac3635fca61ae3ba544ecb6e9c) - **refactor:** update `math/base/assert/is-probability` to follow latest project conventions [(#4700)](https://github.com/stdlib-js/stdlib/pull/4700) _(by Vivek Maurya)_
+-   [`2693663`](https://github.com/stdlib-js/stdlib/commit/2693663452c1d6c5708b7c474b4e2ea2e2570cf6) - **refactor:** update `math/base/assert/is-prime` to follow latest project conventions [(#4701)](https://github.com/stdlib-js/stdlib/pull/4701) _(by Vivek Maurya)_
+-   [`20b4721`](https://github.com/stdlib-js/stdlib/commit/20b4721661560f4bfaa48aca80696055776ac900) - **feat:** add `math/base/assert/is-probabilityf` [(#4214)](https://github.com/stdlib-js/stdlib/pull/4214) _(by Vivek Maurya, Gunj Joshi, stdlib-bot)_
+-   [`dbb338e`](https://github.com/stdlib-js/stdlib/commit/dbb338e80336515e9f7ef602188985bbbe9b9010) - **docs:** update related packages sections [(#4690)](https://github.com/stdlib-js/stdlib/pull/4690) _(by stdlib-bot)_
+-   [`bd18248`](https://github.com/stdlib-js/stdlib/commit/bd1824843709cd0ba9de4351fceefd27069293c7) - **docs:** update related packages sections [(#4675)](https://github.com/stdlib-js/stdlib/pull/4675) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`ff48331`](https://github.com/stdlib-js/stdlib/commit/ff483312f61426a3072a5c22a9bf0e8ef4950a42) - **feat:** add `math/base/special/dirac-deltaf` [(#3363)](https://github.com/stdlib-js/stdlib/pull/3363) _(by Aayush Khanna, stdlib-bot)_
+-   [`665d028`](https://github.com/stdlib-js/stdlib/commit/665d02833fd4ee672310ea00085ebd15836d5868) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_IID_D` macro in `math/base/napi/ternary` [(#4523)](https://github.com/stdlib-js/stdlib/pull/4523) _(by Prashant Kumar Yadav, Athan Reines)_
+-   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522) _(by Prashant Kumar Yadav, Athan Reines)_
+-   [`321e49e`](https://github.com/stdlib-js/stdlib/commit/321e49e9965648f1b5eb6a840fe454959af0ec49) - **docs:** add missing periods to list items _(by Philipp Burckhardt)_
+-   [`a3301a2`](https://github.com/stdlib-js/stdlib/commit/a3301a2bde94e8c07888a1db589d189e9ecfc347) - **docs:** update related packages sections [(#4517)](https://github.com/stdlib-js/stdlib/pull/4517) _(by stdlib-bot)_
+-   [`861cd7f`](https://github.com/stdlib-js/stdlib/commit/861cd7fe43675fb2d0c964415f117c3f36e3d5bf) - **refactor:** update `math/base/assert/is-even` to follow latest project conventions [(#4183)](https://github.com/stdlib-js/stdlib/pull/4183) _(by Vivek Maurya, Athan Reines)_
+-   [`14706e4`](https://github.com/stdlib-js/stdlib/commit/14706e4baccbf3b827e12cae163d7b98a96b0fa8) - **docs:** update related packages sections [(#4445)](https://github.com/stdlib-js/stdlib/pull/4445) _(by stdlib-bot)_
+-   [`b518ff1`](https://github.com/stdlib-js/stdlib/commit/b518ff110e120612be4d53b9f124a3c210711610) - **feat:** add C implementation for `math/base/special/falling-factorial` _(by Gunj Joshi, stdlib-bot, Philipp Burckhardt)_
+-   [`0d52a8a`](https://github.com/stdlib-js/stdlib/commit/0d52a8a0eec7221c0147185c4ce3317db0458498) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`4301694`](https://github.com/stdlib-js/stdlib/commit/43016945387e02d6396d33cb7134c62c977b7fd8) - **docs:** update related packages sections [(#4362)](https://github.com/stdlib-js/stdlib/pull/4362) _(by stdlib-bot)_
 -   [`8f2808d`](https://github.com/stdlib-js/stdlib/commit/8f2808dec8c8a6508841e86453fba823823efc6c) - **docs:** update related packages sections [(#4302)](https://github.com/stdlib-js/stdlib/pull/4302) _(by stdlib-bot)_
 -   [`a69e423`](https://github.com/stdlib-js/stdlib/commit/a69e423dc4990692cdf4ce6648544ba30594d7cb) - **docs:** update related packages sections [(#4265)](https://github.com/stdlib-js/stdlib/pull/4265) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`a6f3921`](https://github.com/stdlib-js/stdlib/commit/a6f3921560705503dcb5ee2575dd2f11417f58fb) - **docs:** update related packages sections [(#4242)](https://github.com/stdlib-js/stdlib/pull/4242) _(by stdlib-bot, Athan Reines)_
