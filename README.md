@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base (i.e., lower-level) math functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-math = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var math = require( 'path/to/vendor/umd/math-base/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.math;
-})();
-</script>
+var math = require( '@stdlib/math-base' );
 ```
 
 #### math
@@ -85,7 +79,6 @@ The namespace has the following sub-namespaces:
 <div class="namespace-toc">
 
 -   <span class="signature">[`assert`][@stdlib/math/base/assert]</span><span class="delimiter">: </span><span class="description">base math assertion utilities.</span>
--   <span class="signature">[`ops`][@stdlib/math/base/ops]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) math operators.</span>
 -   <span class="signature">[`special`][@stdlib/math/base/special]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) special math functions.</span>
 -   <span class="signature">[`tools`][@stdlib/math/base/tools]</span><span class="delimiter">: </span><span class="description">base math tools.</span>
 -   <span class="signature">[`utils`][@stdlib/math/base/utils]</span><span class="delimiter">: </span><span class="description">base math utilities.</span>
@@ -114,21 +107,11 @@ The namespace has the following sub-namespaces:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/math-base' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -169,7 +152,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -182,8 +165,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base
 
-[test-image]: https://github.com/stdlib-js/math-base/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/math-base/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/math-base/actions/workflows/test.yml/badge.svg?branch=v0.4.1
+[test-url]: https://github.com/stdlib-js/math-base/actions/workflows/test.yml?query=branch:v0.4.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base?branch=main
@@ -195,8 +178,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -217,15 +200,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/assert]: https://github.com/stdlib-js/math-base-assert/tree/umd
+[@stdlib/math/base/assert]: https://github.com/stdlib-js/math-base-assert
 
-[@stdlib/math/base/ops]: https://github.com/stdlib-js/math-base-ops/tree/umd
+[@stdlib/math/base/special]: https://github.com/stdlib-js/math-base-special
 
-[@stdlib/math/base/special]: https://github.com/stdlib-js/math-base-special/tree/umd
+[@stdlib/math/base/tools]: https://github.com/stdlib-js/math-base-tools
 
-[@stdlib/math/base/tools]: https://github.com/stdlib-js/math-base-tools/tree/umd
-
-[@stdlib/math/base/utils]: https://github.com/stdlib-js/math-base-utils/tree/umd
+[@stdlib/math/base/utils]: https://github.com/stdlib-js/math-base-utils
 
 <!-- </toc-links> -->
 
