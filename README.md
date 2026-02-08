@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import math from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base@esm/index.mjs';
+import math from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base@v0.4.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assert, special, tools, utils } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base@esm/index.mjs';
+import { assert, special, tools, utils } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base@v0.4.1-esm/index.mjs';
 ```
 
 #### math
@@ -102,7 +102,7 @@ The namespace has the following sub-namespaces:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base@v0.4.1-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
