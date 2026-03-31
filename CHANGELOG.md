@@ -2,6 +2,121 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-31)
+
+<section class="features">
+
+### Features
+
+-   [`e196c42`](https://github.com/stdlib-js/stdlib/commit/e196c42d4f901702ffda4f5159b2ecd9141f8384) - add `CCCC_C` macro in `math/base/napi/quaternary` [(#11105)](https://github.com/stdlib-js/stdlib/pull/11105)
+-   [`71468a6`](https://github.com/stdlib-js/stdlib/commit/71468a6d49a3c0c2ec6173033eacda61bc75ff01) - add `ZZZZ_Z` macro in `math/base/napi/quaternary` [(#9944)](https://github.com/stdlib-js/stdlib/pull/9944)
+-   [`e21c16f`](https://github.com/stdlib-js/stdlib/commit/e21c16fb0ca9a5d7a4018c2189e7aaada33c477e) - add `HH_H` macro in `math/base/napi/binary` [(#9577)](https://github.com/stdlib-js/stdlib/pull/9577)
+-   [`c51df70`](https://github.com/stdlib-js/stdlib/commit/c51df700dde62d157e7fd9bbcfa9148d82ccef7f) - add implementation of `math/base/special/floor2f` [(#10323)](https://github.com/stdlib-js/stdlib/pull/10323)
+-   [`53aaf81`](https://github.com/stdlib-js/stdlib/commit/53aaf8135f7feba8476da758d895cc24da20caad) - add C implementation for `math/base/special/heaviside` [(#10196)](https://github.com/stdlib-js/stdlib/pull/10196)
+-   [`2eea8bb`](https://github.com/stdlib-js/stdlib/commit/2eea8bb24c99fb81c56ec7c14d0cca8d88b1cb52) - add implementation of `math/base/special/coshf` [(#10177)](https://github.com/stdlib-js/stdlib/pull/10177)
+-   [`b47c0f0`](https://github.com/stdlib-js/stdlib/commit/b47c0f0b2d39710600184eeb20fcc9e1c870e3f9) - add `math/base/special/sincosdf` [(#9822)](https://github.com/stdlib-js/stdlib/pull/9822)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 4 issues were closed in this release:
+
+[#10246](https://github.com/stdlib-js/stdlib/issues/10246), [#10377](https://github.com/stdlib-js/stdlib/issues/10377), [#10692](https://github.com/stdlib-js/stdlib/issues/10692), [#11044](https://github.com/stdlib-js/stdlib/issues/11044)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`8448f5a`](https://github.com/stdlib-js/stdlib/commit/8448f5a44bad7e305d50ac9e92ba195bac863389) - **chore:** ensure consistent use of semicolons [(#11170)](https://github.com/stdlib-js/stdlib/pull/11170) _(by Philipp Burckhardt, Athan Reines)_
+-   [`e81a8c0`](https://github.com/stdlib-js/stdlib/commit/e81a8c0c8501d4bc3e3b3843a86476a2e088a9d6) - **docs:** fix C examples [(#11134)](https://github.com/stdlib-js/stdlib/pull/11134) _(by anee3)_
+-   [`b20816f`](https://github.com/stdlib-js/stdlib/commit/b20816f0b727f9a365b0fd526092db9cd2ad75fc) - **docs:** fix incorrect return annotation [(#11128)](https://github.com/stdlib-js/stdlib/pull/11128) _(by anee3)_
+-   [`b7feba2`](https://github.com/stdlib-js/stdlib/commit/b7feba2d63f20199707be94ffa1284538e0c4395) - **docs:** fix C example variable declaration [(#11127)](https://github.com/stdlib-js/stdlib/pull/11127) _(by anee3)_
+-   [`727c508`](https://github.com/stdlib-js/stdlib/commit/727c508beee8414b732fadb3f882d98cbb3f69cf) - **docs:** fix C example function call [(#11126)](https://github.com/stdlib-js/stdlib/pull/11126) _(by anee3)_
+-   [`d42b153`](https://github.com/stdlib-js/stdlib/commit/d42b153778f21dd1cd0814887086f43417de3738) - **docs:** fix C example variable declaration [(#11125)](https://github.com/stdlib-js/stdlib/pull/11125) _(by anee3)_
+-   [`2604e21`](https://github.com/stdlib-js/stdlib/commit/2604e213f90904e2dbf64a18afdd68cfa5881719) - **docs:** fix C example variable declaration [(#11124)](https://github.com/stdlib-js/stdlib/pull/11124) _(by anee3)_
+-   [`90b1d08`](https://github.com/stdlib-js/stdlib/commit/90b1d08d97ae2d4db68836796d38f486d62d6610) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`e196c42`](https://github.com/stdlib-js/stdlib/commit/e196c42d4f901702ffda4f5159b2ecd9141f8384) - **feat:** add `CCCC_C` macro in `math/base/napi/quaternary` [(#11105)](https://github.com/stdlib-js/stdlib/pull/11105) _(by Neeraj Pathak)_
+-   [`1790fd8`](https://github.com/stdlib-js/stdlib/commit/1790fd8540adf9a62bdd63361c7cdcc8ad540c36) - **bench:** refactor to use string interpolation in `math/base/special/beta` [(#11090)](https://github.com/stdlib-js/stdlib/pull/11090) _(by Partha Das)_
+-   [`71468a6`](https://github.com/stdlib-js/stdlib/commit/71468a6d49a3c0c2ec6173033eacda61bc75ff01) - **feat:** add `ZZZZ_Z` macro in `math/base/napi/quaternary` [(#9944)](https://github.com/stdlib-js/stdlib/pull/9944) _(by Neeraj Pathak, Athan Reines)_
+-   [`fda6d89`](https://github.com/stdlib-js/stdlib/commit/fda6d8918aaab28bd1b422d32314970d0fb8215b) - **chore:** fix EditorConfig lint errors [(#11046)](https://github.com/stdlib-js/stdlib/pull/11046) _(by Baixiaochun)_
+-   [`a5f1905`](https://github.com/stdlib-js/stdlib/commit/a5f190528adacae01ce743e29bc4e1f91d005947) - **bench:** use string interpolation in `math/base/special/floor` [(#10736)](https://github.com/stdlib-js/stdlib/pull/10736) _(by travisBREAKS, Egger)_
+-   [`f838879`](https://github.com/stdlib-js/stdlib/commit/f83887976cd26ae9bc431233a46777b281bf91e8) - **bench:** use string interpolation in `math/base/special/ceil` [(#10735)](https://github.com/stdlib-js/stdlib/pull/10735) _(by travisBREAKS)_
+-   [`6f7ee58`](https://github.com/stdlib-js/stdlib/commit/6f7ee58852bbba14f20d0ef3f0e6855cd7e5ab1b) - **bench:** use string interpolation in `math/base/special/abs` [(#10734)](https://github.com/stdlib-js/stdlib/pull/10734) _(by travisBREAKS)_
+-   [`8145443`](https://github.com/stdlib-js/stdlib/commit/8145443dd757751d025b175d64e425244cddb97f) - **docs:** update `math/base/special` TypeScript declarations [(#10711)](https://github.com/stdlib-js/stdlib/pull/10711) _(by stdlib-bot)_
+-   [`a24740a`](https://github.com/stdlib-js/stdlib/commit/a24740a8441afceaef4ec4f0956fdb32b66c2f36) - **chore:** fix EditorConfig lint errors [(#10695)](https://github.com/stdlib-js/stdlib/pull/10695) _(by Partha Das)_
+-   [`2727b51`](https://github.com/stdlib-js/stdlib/commit/2727b5129ea9956b5e0caf989654454912fe9d24) - **docs:** improve doctests for complex number instances in `math/base/special/croundf` [(#10510)](https://github.com/stdlib-js/stdlib/pull/10510) _(by AyushiJain18270, Philipp Burckhardt)_
+-   [`e21c16f`](https://github.com/stdlib-js/stdlib/commit/e21c16fb0ca9a5d7a4018c2189e7aaada33c477e) - **feat:** add `HH_H` macro in `math/base/napi/binary` [(#9577)](https://github.com/stdlib-js/stdlib/pull/9577) _(by Neeraj Pathak, Athan Reines)_
+-   [`3422651`](https://github.com/stdlib-js/stdlib/commit/3422651a3ec2e6717f25d82020a62f00dbe2aa78) - **docs:** add missing section closing comments in READMEs _(by Philipp Burckhardt)_
+-   [`40a80f6`](https://github.com/stdlib-js/stdlib/commit/40a80f62a767edfc5d664d617f44a4b8cb335cdd) - **docs:** add missing section closing comments in `math/base/special` READMEs _(by Philipp Burckhardt)_
+-   [`abedf58`](https://github.com/stdlib-js/stdlib/commit/abedf5837f3b62af132cc2e9a8dac5dabc3939bc) - **docs:** fix typo in section closing comments in `math/base/special/gammasgn*` READMEs _(by Philipp Burckhardt)_
+-   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
+-   [`f7191c0`](https://github.com/stdlib-js/stdlib/commit/f7191c093f0607ad6de9b7a21612f36bb3a84d90) - **chore:** use relative paths and remove trailing slashes in require paths _(by Philipp Burckhardt)_
+-   [`0ca797b`](https://github.com/stdlib-js/stdlib/commit/0ca797b5558b96111256a7446eafe101761b240b) - **bench:** use float literals for `uniform` range arguments _(by Philipp Burckhardt)_
+-   [`8156d8e`](https://github.com/stdlib-js/stdlib/commit/8156d8e838de021a64886a2d4879ac898695389d) - **bench:** refactor to use string interpolation in `math/base/utils` [(#10473)](https://github.com/stdlib-js/stdlib/pull/10473) _(by Vishal Gaikwad)_
+-   [`a60fc25`](https://github.com/stdlib-js/stdlib/commit/a60fc2596e69278abc19df474aa63f259f9bdbe5) - **test:** use `powf` in `absgammalnf` [(#10437)](https://github.com/stdlib-js/stdlib/pull/10437) _(by Sagar Ratna Chaudhary)_
+-   [`1ca4102`](https://github.com/stdlib-js/stdlib/commit/1ca410285a07bc2fe47b66732c4c24bfadd50771) - **chore:** fix EditorConfig lint errors [(#10406)](https://github.com/stdlib-js/stdlib/pull/10406) _(by Kamal Singh Rautela)_
+-   [`6979901`](https://github.com/stdlib-js/stdlib/commit/697990190ede7a6b807372e724546eb9470aa81b) - **bench:** refactor to use string interpolation in `math/base/special/sec` [(#10359)](https://github.com/stdlib-js/stdlib/pull/10359) _(by AyushiJain18270)_
+-   [`c51df70`](https://github.com/stdlib-js/stdlib/commit/c51df700dde62d157e7fd9bbcfa9148d82ccef7f) - **feat:** add implementation of `math/base/special/floor2f` [(#10323)](https://github.com/stdlib-js/stdlib/pull/10323) _(by Shubham, Philipp Burckhardt)_
+-   [`1ac0545`](https://github.com/stdlib-js/stdlib/commit/1ac0545653898f2f1c6943f52d42afb9d46195c6) - **chore:** update tests and use string interpolation in `math/base/special/sqrt1pm1` [(#10324)](https://github.com/stdlib-js/stdlib/pull/10324) _(by Shubham)_
+-   [`6ecc272`](https://github.com/stdlib-js/stdlib/commit/6ecc272a3117e71d4a9b0ec55864e5fed4e2386c) - **chore:** fix example code and add missing semicolon _(by Philipp Burckhardt)_
+-   [`a253e63`](https://github.com/stdlib-js/stdlib/commit/a253e6394fc69bc1251c0544ca051b605c8adad3) - **docs:** update `math/base/special` TypeScript declarations [(#10311)](https://github.com/stdlib-js/stdlib/pull/10311) _(by stdlib-bot)_
+-   [`e83179b`](https://github.com/stdlib-js/stdlib/commit/e83179b9b342021ac4b62eb9985e82137462ff0e) - **docs:** improve doctests for complex number instances in `math/base/special/cceilf` [(#10183)](https://github.com/stdlib-js/stdlib/pull/10183) _(by Vishal Gaikwad)_
+-   [`53aaf81`](https://github.com/stdlib-js/stdlib/commit/53aaf8135f7feba8476da758d895cc24da20caad) - **feat:** add C implementation for `math/base/special/heaviside` [(#10196)](https://github.com/stdlib-js/stdlib/pull/10196) _(by Kamal Singh Rautela)_
+-   [`71f75c9`](https://github.com/stdlib-js/stdlib/commit/71f75c9b9b996b6b0e6a1e4a75229a726c3a1ea3) - **chore:** fix JavaScript lint errors [(#10247)](https://github.com/stdlib-js/stdlib/pull/10247) _(by Bhargav Dabhade)_
+-   [`2eea8bb`](https://github.com/stdlib-js/stdlib/commit/2eea8bb24c99fb81c56ec7c14d0cca8d88b1cb52) - **feat:** add implementation of `math/base/special/coshf` [(#10177)](https://github.com/stdlib-js/stdlib/pull/10177) _(by Shubham)_
+-   [`b47c0f0`](https://github.com/stdlib-js/stdlib/commit/b47c0f0b2d39710600184eeb20fcc9e1c870e3f9) - **feat:** add `math/base/special/sincosdf` [(#9822)](https://github.com/stdlib-js/stdlib/pull/9822) _(by Shantanu Kharwar, Philipp Burckhardt)_
+-   [`de6983f`](https://github.com/stdlib-js/stdlib/commit/de6983f8c2359024668e5b4b5e7f65eb472118ee) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10195)](https://github.com/stdlib-js/stdlib/pull/10195) _(by Lokesh Ranjan)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 16 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   AyushiJain18270
+-   Baixiaochun
+-   Bhargav Dabhade
+-   Egger
+-   Kamal Singh Rautela
+-   Lokesh Ranjan
+-   Neeraj Pathak
+-   Partha Das
+-   Philipp Burckhardt
+-   Sagar Ratna Chaudhary
+-   Shantanu Kharwar
+-   Shubham
+-   Vishal Gaikwad
+-   anee3
+-   travisBREAKS
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-08)
