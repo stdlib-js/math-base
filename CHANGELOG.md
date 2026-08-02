@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-08-02)
 
 <section class="features">
 
 ### Features
 
+-   [`455dad2`](https://github.com/stdlib-js/stdlib/commit/455dad25032074fb59d8c0e9569d14332e62941d) - add C implementation for `math/base/special/betainc` [(#4037)](https://github.com/stdlib-js/stdlib/pull/4037)
+-   [`3c0a11a`](https://github.com/stdlib-js/stdlib/commit/3c0a11a17586fcacffaf1b99be6ad70c9615e194) - add C implementation for `math/base/special/gammaincinv` [(#9982)](https://github.com/stdlib-js/stdlib/pull/9982)
+-   [`6512a7a`](https://github.com/stdlib-js/stdlib/commit/6512a7a5ac20f3efb7d40d65085cc74f18f6a1ba) - add C implementation of `math/base/special/kernel-betainc` [(#10279)](https://github.com/stdlib-js/stdlib/pull/10279)
 -   [`a615900`](https://github.com/stdlib-js/stdlib/commit/a615900caf19b4bb54ff0778986c44e6136494f7) - update `math/base/tools` TypeScript declarations [(#12165)](https://github.com/stdlib-js/stdlib/pull/12165)
 -   [`2e36fdf`](https://github.com/stdlib-js/stdlib/commit/2e36fdf188f8fe891f93ad0294059ef480e5aec2) - add `chebyshevSeriesf` to namespace
 -   [`2d1c3d6`](https://github.com/stdlib-js/stdlib/commit/2d1c3d6758dc3f7caffc15550ba945580625438d) - add `math/base/tools/chebyshev-seriesf` [(#11564)](https://github.com/stdlib-js/stdlib/pull/11564)
@@ -31,6 +34,7 @@
 
 ### Bug Fixes
 
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`6c5aba3`](https://github.com/stdlib-js/stdlib/commit/6c5aba3180401175318f88be776841d126e3d470) - correct `ellipj` declaration signature, parameters, and examples [(#12458)](https://github.com/stdlib-js/stdlib/pull/12458)
 -   [`c3d9ed0`](https://github.com/stdlib-js/stdlib/commit/c3d9ed0054c6c6a822d7ca87876048d44c3914ba) - narrow `fresnel` return type to a two-element tuple [(#12466)](https://github.com/stdlib-js/stdlib/pull/12466)
 -   [`0a659c4`](https://github.com/stdlib-js/stdlib/commit/0a659c475d1030c15e9bbb6647e14bedd5d76a31) - improve numerical accuracy for large `x` values
@@ -46,9 +50,9 @@
 
 ### Closed Issues
 
-A total of 12 issues were closed in this release:
+A total of 16 issues were closed in this release:
 
-[#1891](https://github.com/stdlib-js/stdlib/issues/1891), [#10246](https://github.com/stdlib-js/stdlib/issues/10246), [#10377](https://github.com/stdlib-js/stdlib/issues/10377), [#10692](https://github.com/stdlib-js/stdlib/issues/10692), [#11044](https://github.com/stdlib-js/stdlib/issues/11044), [#11230](https://github.com/stdlib-js/stdlib/issues/11230), [#11246](https://github.com/stdlib-js/stdlib/issues/11246), [#11327](https://github.com/stdlib-js/stdlib/issues/11327), [#11883](https://github.com/stdlib-js/stdlib/issues/11883), [#11983](https://github.com/stdlib-js/stdlib/issues/11983), [#12121](https://github.com/stdlib-js/stdlib/issues/12121), [#12334](https://github.com/stdlib-js/stdlib/issues/12334)
+[#1891](https://github.com/stdlib-js/stdlib/issues/1891), [#10246](https://github.com/stdlib-js/stdlib/issues/10246), [#10377](https://github.com/stdlib-js/stdlib/issues/10377), [#10692](https://github.com/stdlib-js/stdlib/issues/10692), [#11044](https://github.com/stdlib-js/stdlib/issues/11044), [#11230](https://github.com/stdlib-js/stdlib/issues/11230), [#11246](https://github.com/stdlib-js/stdlib/issues/11246), [#11327](https://github.com/stdlib-js/stdlib/issues/11327), [#11883](https://github.com/stdlib-js/stdlib/issues/11883), [#11983](https://github.com/stdlib-js/stdlib/issues/11983), [#12121](https://github.com/stdlib-js/stdlib/issues/12121), [#12163](https://github.com/stdlib-js/stdlib/issues/12163), [#12334](https://github.com/stdlib-js/stdlib/issues/12334), [#13033](https://github.com/stdlib-js/stdlib/issues/13033), [#13113](https://github.com/stdlib-js/stdlib/issues/13113), [#13157](https://github.com/stdlib-js/stdlib/issues/13157)
 
 </section>
 
@@ -60,6 +64,132 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
+-   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
+-   [`22102e1`](https://github.com/stdlib-js/stdlib/commit/22102e138f718d8201aeba9d8a14cce6c5fa49a8) - **docs:** improve doctests for complex number instances [(#13840)](https://github.com/stdlib-js/stdlib/pull/13840) _(by fiboNacci1163)_
+-   [`3efc6d3`](https://github.com/stdlib-js/stdlib/commit/3efc6d371e0a32f6991ebd7279c93c595e3e9ff6) - **test:** migrate `math/base/special/spence` to ULP-based testing [(#13842)](https://github.com/stdlib-js/stdlib/pull/13842) _(by Ujjwal Verma)_
+-   [`7cf37f7`](https://github.com/stdlib-js/stdlib/commit/7cf37f79b1bd737e102923b4f88187df0ebac5ff) - **test:** migrate `math/base/special/sech` to ULP-based testing [(#13843)](https://github.com/stdlib-js/stdlib/pull/13843) _(by Ujjwal Verma)_
+-   [`2d4ff34`](https://github.com/stdlib-js/stdlib/commit/2d4ff34b30b1f0f569e3ae8a1473eb517f9f4cd0) - **test:** migrate `math/base/special/csc` to ULP-based assertions [(#13828)](https://github.com/stdlib-js/stdlib/pull/13828) _(by Philipp Burckhardt)_
+-   [`b77ae47`](https://github.com/stdlib-js/stdlib/commit/b77ae47c93baa10652aa73d045976852a3727deb) - **test:** migrate `math/base/special/xlogyf` to ULP-based testing [(#13829)](https://github.com/stdlib-js/stdlib/pull/13829) _(by Ujjwal Verma)_
+-   [`00a2948`](https://github.com/stdlib-js/stdlib/commit/00a29487d1978205ce5fba2f096ad7c473bb8497) - **bench:** replace `pow` with `powf` [(#13825)](https://github.com/stdlib-js/stdlib/pull/13825) _(by Arjan-P)_
+-   [`1d63259`](https://github.com/stdlib-js/stdlib/commit/1d6325966f4f990a577246f4f0bbcef9a41d2a42) - **test:** migrate `math/base/special/avercosf` to ULP difference testing [(#13818)](https://github.com/stdlib-js/stdlib/pull/13818) _(by Arjan-P)_
+-   [`351f7c0`](https://github.com/stdlib-js/stdlib/commit/351f7c02cb351877f809cd92e8318205277c8e12) - **test:** migrate `math/base/special/sqrtpif` to ULP-based testing [(#13803)](https://github.com/stdlib-js/stdlib/pull/13803) _(by Ujjwal Verma)_
+-   [`e932b6f`](https://github.com/stdlib-js/stdlib/commit/e932b6f0cd73958e0a78e2198397dc440eeb7b2e) - **test:** migrate `math/base/special/acoversinf` to ULP-based testing [(#13774)](https://github.com/stdlib-js/stdlib/pull/13774) _(by Ujjwal Verma, Athan Reines)_
+-   [`e10f261`](https://github.com/stdlib-js/stdlib/commit/e10f261ba945d31527f191148cd8c912fd1e2315) - **test:** migrate `math/base/special/truncn` to ULP-based testing [(#13784)](https://github.com/stdlib-js/stdlib/pull/13784) _(by Ujjwal Verma)_
+-   [`1851c13`](https://github.com/stdlib-js/stdlib/commit/1851c13ad273f475d5fe58f13fa22bd09626eafb) - **test:** migrate `math/base/special/acscd` to ULP-based testing [(#13775)](https://github.com/stdlib-js/stdlib/pull/13775) _(by Ujjwal Verma)_
+-   [`22f4f46`](https://github.com/stdlib-js/stdlib/commit/22f4f4679848ceb5b5744307f95191747f65bf96) - **test:** migrate `math/base/special/ellipe` to ULP difference testing [(#13778)](https://github.com/stdlib-js/stdlib/pull/13778) _(by Arjan-P)_
+-   [`1b2175c`](https://github.com/stdlib-js/stdlib/commit/1b2175ccf46c677fef8daffa234a5984cae3bae6) - **test:** migrate `math/base/special/lnf` to ULP difference based testing [(#13773)](https://github.com/stdlib-js/stdlib/pull/13773) _(by Arjan-P)_
+-   [`0011f59`](https://github.com/stdlib-js/stdlib/commit/0011f59245c1d2548c05e443aa39cde998ef0538) - **test:** migrate `math/base/special/aversinf` to ULP difference testing [(#13772)](https://github.com/stdlib-js/stdlib/pull/13772) _(by Arjan-P)_
+-   [`01be02d`](https://github.com/stdlib-js/stdlib/commit/01be02d67276c97cf700b8e32167d64583d149ce) - **test:** migrate `math/base/special/aversin` to ULP difference testing [(#13765)](https://github.com/stdlib-js/stdlib/pull/13765) _(by Arjan-P)_
+-   [`8adbe79`](https://github.com/stdlib-js/stdlib/commit/8adbe794208a92a1cace62a2e4fb259191f72d7b) - **test:** migrate `math/base/special/erfcinv` to ULP-based testing [(#13761)](https://github.com/stdlib-js/stdlib/pull/13761) _(by Philipp Burckhardt)_
+-   [`7fc00f6`](https://github.com/stdlib-js/stdlib/commit/7fc00f6b414a1a7394b54ccedbcc244ce2cfa0d0) - **test:** migrate `math/base/special/acovercos` to ULP-based testing [(#13755)](https://github.com/stdlib-js/stdlib/pull/13755) _(by Ujjwal Verma)_
+-   [`c90a54a`](https://github.com/stdlib-js/stdlib/commit/c90a54ab17c4cbbbf0c78e2e5bea120f90debd14) - **chore:** clean-up [(#13752)](https://github.com/stdlib-js/stdlib/pull/13752) _(by Philipp Burckhardt, Athan Reines)_
+-   [`2c38f7c`](https://github.com/stdlib-js/stdlib/commit/2c38f7c3549842ec429c2826ab4507bb80bb606d) - **test:** migrate `math/base/special/acscf` to ULP difference testing [(#13753)](https://github.com/stdlib-js/stdlib/pull/13753) _(by Arjan-P)_
+-   [`f38253d`](https://github.com/stdlib-js/stdlib/commit/f38253d42ab73d077e4daf6e39d66f16f40d1b2d) - **test:** migrate `math/base/special/acoth` to ULP-based testing [(#13745)](https://github.com/stdlib-js/stdlib/pull/13745) _(by Ujjwal Verma)_
+-   [`fd88265`](https://github.com/stdlib-js/stdlib/commit/fd882659f08d3dfab79ff86fa71da0e321ec1961) - **test:** migrate `math/base/special/log1p` to ULP difference testing [(#13744)](https://github.com/stdlib-js/stdlib/pull/13744) _(by Arjan-P, Athan Reines)_
+-   [`39e37e8`](https://github.com/stdlib-js/stdlib/commit/39e37e8e818d62b6dcdca5f0c845dcf64250e4a4) - **test:** migrate `math/base/special/ln` to ULP difference testing [(#13742)](https://github.com/stdlib-js/stdlib/pull/13742) _(by Arjan-P)_
+-   [`197895d`](https://github.com/stdlib-js/stdlib/commit/197895d4f29ba3e97b3ae0573eb726741ec89131) - **test:** migrate `math/base/special/acotdf` to ULP-based testing [(#13740)](https://github.com/stdlib-js/stdlib/pull/13740) _(by Ujjwal Verma)_
+-   [`bf8f11d`](https://github.com/stdlib-js/stdlib/commit/bf8f11d7c120b06d3bb17e5e585ffed1d8e30a9a) - **test:** migrate `math/base/special/acot` to ULP-based testing [(#13739)](https://github.com/stdlib-js/stdlib/pull/13739) _(by Ujjwal Verma)_
+-   [`fd92d62`](https://github.com/stdlib-js/stdlib/commit/fd92d621e42ea43ce6f5d4bc77196400c6d6a8df) - **test:** migrate `math/base/special/cotd` to ULP-based testing [(#13732)](https://github.com/stdlib-js/stdlib/pull/13732) _(by Philipp Burckhardt)_
+-   [`11d3499`](https://github.com/stdlib-js/stdlib/commit/11d34997fba6e5c29fb7970e85f5ccd4d3f056f1) - **test:** migrate `math/base/special/acosdf` to ULP-based testing [(#13727)](https://github.com/stdlib-js/stdlib/pull/13727) _(by Ujjwal Verma)_
+-   [`943c871`](https://github.com/stdlib-js/stdlib/commit/943c871fd8a0908cc5ae1cc6f39e35cec8d306b4) - **test:** migrate `math/base/special/spencef` to ULP-based testing [(#13726)](https://github.com/stdlib-js/stdlib/pull/13726) _(by Ujjwal Verma)_
+-   [`6df71ed`](https://github.com/stdlib-js/stdlib/commit/6df71ed6790928e149b924ff37aeda425273b5fb) - **test:** migrate `math/base/special/cosd` to ULP-based testing [(#13704)](https://github.com/stdlib-js/stdlib/pull/13704) _(by Philipp Burckhardt)_
+-   [`a8e2731`](https://github.com/stdlib-js/stdlib/commit/a8e27311c716143324647a6893d14df039d3c011) - **test:** migrate `math/base/special/logaddexp` to ULP-based testing [(#13691)](https://github.com/stdlib-js/stdlib/pull/13691) _(by Philipp Burckhardt)_
+-   [`49960a0`](https://github.com/stdlib-js/stdlib/commit/49960a0f18a9c97ead1862d2aa53432c8085285d) - **chore:** clean-up [(#13695)](https://github.com/stdlib-js/stdlib/pull/13695) _(by Philipp Burckhardt, Athan Reines)_
+-   [`9fde4be`](https://github.com/stdlib-js/stdlib/commit/9fde4be5173b576e71c972de7fef226b0f1670c3) - **test:** migrate `math/base/special/exp` to ULP-based testing [(#13687)](https://github.com/stdlib-js/stdlib/pull/13687) _(by Arjan-P)_
+-   [`b21013e`](https://github.com/stdlib-js/stdlib/commit/b21013eda09578053481612adf7a1958b3fe0f34) - **test:** migrate `math/base/special/sqrt1pm1` to ULP-based testing [(#13693)](https://github.com/stdlib-js/stdlib/pull/13693) _(by Ujjwal Verma)_
+-   [`a8e87a8`](https://github.com/stdlib-js/stdlib/commit/a8e87a88cb75aafcbafab18064dcc802df68e97e) - **test:** migrate `math/base/special/xlog1py` to ULP-based testing [(#13692)](https://github.com/stdlib-js/stdlib/pull/13692) _(by Ujjwal Verma)_
+-   [`aa63474`](https://github.com/stdlib-js/stdlib/commit/aa6347476367ea9135fb79a769558be3710082e6) - **test:** migrate `math/base/special/exp2` to ULP difference testing [(#13690)](https://github.com/stdlib-js/stdlib/pull/13690) _(by Arjan-P)_
+-   [`57a432c`](https://github.com/stdlib-js/stdlib/commit/57a432cf3c7fd0419b426480bb11598cb546ec1b) - **test:** migrate `math/base/special/acscdf` to ULP-based testing [(#13673)](https://github.com/stdlib-js/stdlib/pull/13673) _(by Philipp Burckhardt)_
+-   [`04b5db2`](https://github.com/stdlib-js/stdlib/commit/04b5db21775e7e05271780656a15b96fae263f58) - **test:** migrate `math/base/special/fresnels` to ULP-based testing [(#13667)](https://github.com/stdlib-js/stdlib/pull/13667) _(by Ujjwal Verma)_
+-   [`f027a8a`](https://github.com/stdlib-js/stdlib/commit/f027a8a77020d5b8cd3adbea44b442743dbe4604) - **test:** migrate `math/base/special/trigamma` to ULP-based testing [(#13666)](https://github.com/stdlib-js/stdlib/pull/13666) _(by Ujjwal Verma)_
+-   [`d98aba7`](https://github.com/stdlib-js/stdlib/commit/d98aba7d902ab79111b5235db15cfc469244def3) - **test:** migrate `math/base/special/rsqrt` to ULP-based testing [(#13657)](https://github.com/stdlib-js/stdlib/pull/13657) _(by Ujjwal Verma)_
+-   [`4588717`](https://github.com/stdlib-js/stdlib/commit/4588717a2a6f6bb63c224939fee72dbd9e6c6232) - **test:** migrate `math/base/special/acotf` to ULP-based testing [(#13659)](https://github.com/stdlib-js/stdlib/pull/13659) _(by Philipp Burckhardt)_
+-   [`b0882ed`](https://github.com/stdlib-js/stdlib/commit/b0882edee7f41b0d899902e29da8b8d52d24f6a6) - **test:** migrate `math/base/special/tanh` to ULP-based testing [(#13652)](https://github.com/stdlib-js/stdlib/pull/13652) _(by Philipp Burckhardt)_
+-   [`4126e28`](https://github.com/stdlib-js/stdlib/commit/4126e280f1b0cacf12f7d05e660a89f895e20f01) - **test:** migrate `math/base/special/atanh` to ULP-based testing [(#13646)](https://github.com/stdlib-js/stdlib/pull/13646) _(by Philipp Burckhardt)_
+-   [`dadb5e1`](https://github.com/stdlib-js/stdlib/commit/dadb5e19fb4220baaf1ea34f19600a8848afb26b) - **test:** migrate `math/base/special/coth` to ULP-based testing [(#13635)](https://github.com/stdlib-js/stdlib/pull/13635) _(by Philipp Burckhardt)_
+-   [`404e9c7`](https://github.com/stdlib-js/stdlib/commit/404e9c7e2355c360226f47e9a36ae92601abb8fa) - **test:** migrate `math/base/special/atan2` to ULP-based testing [(#13607)](https://github.com/stdlib-js/stdlib/pull/13607) _(by Ujjwal Verma, Athan Reines)_
+-   [`b216c97`](https://github.com/stdlib-js/stdlib/commit/b216c9786293e277f4465630ebf511b202fcb06b) - **test:** migrate `math/base/special/sqrtpi` to ULP-based testing [(#13608)](https://github.com/stdlib-js/stdlib/pull/13608) _(by Ujjwal Verma, Athan Reines)_
+-   [`455dad2`](https://github.com/stdlib-js/stdlib/commit/455dad25032074fb59d8c0e9569d14332e62941d) - **feat:** add C implementation for `math/base/special/betainc` [(#4037)](https://github.com/stdlib-js/stdlib/pull/4037) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`fab0962`](https://github.com/stdlib-js/stdlib/commit/fab096256a5ce80d8c9324da8b9535e2334629d8) - **chore:** fix JavaScript lint errors [(#13595)](https://github.com/stdlib-js/stdlib/pull/13595) _(by jichenggepeter-dev)_
+-   [`ca5ed7f`](https://github.com/stdlib-js/stdlib/commit/ca5ed7fb2e1d15603157e4d7424adc70724891f4) - **test:** migrate `math/base/special/tand` to ULP-based testing [(#13594)](https://github.com/stdlib-js/stdlib/pull/13594) _(by Ujjwal Verma)_
+-   [`92c748d`](https://github.com/stdlib-js/stdlib/commit/92c748dac8ce3ad80070d5999c579a176348ea02) - **chore:** clean-up [(#13603)](https://github.com/stdlib-js/stdlib/pull/13603) _(by Philipp Burckhardt)_
+-   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
+-   [`c61ccdd`](https://github.com/stdlib-js/stdlib/commit/c61ccdd2abfef6a9d840dd044a63a6820a0d5808) - **test:** migrate `math/base/special/sind` to ULP-based testing [(#13583)](https://github.com/stdlib-js/stdlib/pull/13583) _(by Ujjwal Verma)_
+-   [`0cb00da`](https://github.com/stdlib-js/stdlib/commit/0cb00dab661f2f0ddafffb255be5e6ff7828eb09) - **test:** migrate `math/base/special/cbrtf` to ULP-based testing [(#13552)](https://github.com/stdlib-js/stdlib/pull/13552) _(by Ujjwal Verma)_
+-   [`90ed226`](https://github.com/stdlib-js/stdlib/commit/90ed2261339d1b944793a3a6b924a86ea30071ba) - **test:** migrate `math/base/special/sin` to ULP-based testing [(#13562)](https://github.com/stdlib-js/stdlib/pull/13562) _(by Ujjwal Verma)_
+-   [`05aaec1`](https://github.com/stdlib-js/stdlib/commit/05aaec1eae3ce94b131ecc164a326efe63a2b510) - **refactor:** use `constants/float64/nan` in `math/base/special/pow` [(#13555)](https://github.com/stdlib-js/stdlib/pull/13555) _(by Ujjwal Verma)_
+-   [`c3d062b`](https://github.com/stdlib-js/stdlib/commit/c3d062bf484bfe75f4f8e1318fc48c9874260732) - **test:** migrate `math/base/special/asin` to ULP-based testing [(#13525)](https://github.com/stdlib-js/stdlib/pull/13525) _(by Arjan-P)_
+-   [`31d535d`](https://github.com/stdlib-js/stdlib/commit/31d535dbc14736c0a7863333c8f2a876c976f5ef) - **docs:** update namespace table of contents [(#13421)](https://github.com/stdlib-js/stdlib/pull/13421) _(by stdlib-bot)_
+-   [`3c0a11a`](https://github.com/stdlib-js/stdlib/commit/3c0a11a17586fcacffaf1b99be6ad70c9615e194) - **feat:** add C implementation for `math/base/special/gammaincinv` [(#9982)](https://github.com/stdlib-js/stdlib/pull/9982) _(by Om-A-osc, Philipp Burckhardt)_
+-   [`fe9e95e`](https://github.com/stdlib-js/stdlib/commit/fe9e95e50351d69e5405c3c0827daff54119e723) - **docs:** update `math/base/special` TypeScript declarations [(#13399)](https://github.com/stdlib-js/stdlib/pull/13399) _(by stdlib-bot)_
+-   [`6512a7a`](https://github.com/stdlib-js/stdlib/commit/6512a7a5ac20f3efb7d40d65085cc74f18f6a1ba) - **feat:** add C implementation of `math/base/special/kernel-betainc` [(#10279)](https://github.com/stdlib-js/stdlib/pull/10279) _(by Nirmal Jyoti Biswas, Gunj Joshi, Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`a9ded39`](https://github.com/stdlib-js/stdlib/commit/a9ded39203d2cbc9ff79b0cc96f0fbd2a962b36f) - **chore:** clean-up [(#12446)](https://github.com/stdlib-js/stdlib/pull/12446) _(by Philipp Burckhardt, Athan Reines)_
+-   [`1a2e90a`](https://github.com/stdlib-js/stdlib/commit/1a2e90a925bc6b2c347f452b7ec00ba4e42a9b3c) - **bench:** add missing native benchmark [(#13325)](https://github.com/stdlib-js/stdlib/pull/13325) _(by Philipp Burckhardt)_
+-   [`b0041dc`](https://github.com/stdlib-js/stdlib/commit/b0041dc7d2c51b9fed6cc0f6d99a0b35b6827403) - **test:** migrate `math/base/special/xlogy` to ULP-based testing [(#13230)](https://github.com/stdlib-js/stdlib/pull/13230) _(by Ujjwal Verma)_
+-   [`b71a63d`](https://github.com/stdlib-js/stdlib/commit/b71a63d212d3943412faa229884d0ee56ee429da) - **style:** remove stray spaces [(#13248)](https://github.com/stdlib-js/stdlib/pull/13248) _(by Philipp Burckhardt)_
+-   [`e9f7554`](https://github.com/stdlib-js/stdlib/commit/e9f75542701aa7535be20b624f35a483b4c6e34d) - **docs:** update related packages sections [(#13187)](https://github.com/stdlib-js/stdlib/pull/13187) _(by stdlib-bot)_
+-   [`cf2e33c`](https://github.com/stdlib-js/stdlib/commit/cf2e33ca49296c59cfebedac3c20a6058c36a195) - **chore:** fix C lint errors [(#13047)](https://github.com/stdlib-js/stdlib/pull/13047) _(by A Sivasubramanian Manoj, Athan Reines)_
+-   [`d429b7b`](https://github.com/stdlib-js/stdlib/commit/d429b7b10f275b904b9346850252b91f8219ea75) - **chore:** fix JavaScript lint errors  [(#13176)](https://github.com/stdlib-js/stdlib/pull/13176) _(by Akanksha Kumari)_
+-   [`3adbe8a`](https://github.com/stdlib-js/stdlib/commit/3adbe8a17ba4a8ac59a6dbb66085ee84cb78d35d) - **docs:** propagate fixes to sibling packages [(#13133)](https://github.com/stdlib-js/stdlib/pull/13133) _(by Philipp Burckhardt)_
+-   [`d9e748f`](https://github.com/stdlib-js/stdlib/commit/d9e748f4d726705ce57a627947a53b4b31c42b8b) - **chore:** fix EditorConfig lint errors [(#13115)](https://github.com/stdlib-js/stdlib/pull/13115) _(by NotFoundOvO)_
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
+-   [`13176d8`](https://github.com/stdlib-js/stdlib/commit/13176d8fdf2d24a28da84027725a9a38de327dd3) - **docs:** update related packages sections [(#13118)](https://github.com/stdlib-js/stdlib/pull/13118) _(by stdlib-bot)_
+-   [`9a4e514`](https://github.com/stdlib-js/stdlib/commit/9a4e5147a82a0b9db7105bc76fb0d616b7309fc8) - **style:** remove extra trailing newlines [(#13016)](https://github.com/stdlib-js/stdlib/pull/13016) _(by Philipp Burckhardt)_
+-   [`5c56631`](https://github.com/stdlib-js/stdlib/commit/5c56631cd8e1d0ab496c17d05ccd6ae351c7f0ec) - **test:** fix mismatched test filenames [(#12991)](https://github.com/stdlib-js/stdlib/pull/12991) _(by Philipp Burckhardt)_
+-   [`a9d6222`](https://github.com/stdlib-js/stdlib/commit/a9d62224ead388aa9eda0afa118a1427612d1438) - **test:** migrate `math/base/special/rempio2f` to ULP-based testing [(#12810)](https://github.com/stdlib-js/stdlib/pull/12810) _(by Philipp Burckhardt)_
+-   [`9b0d344`](https://github.com/stdlib-js/stdlib/commit/9b0d344e7cb9b1a5ea3a3f75b6623cd12d29cf7a) - **test:** migrate `math/base/special/sincos` to ULP-based testing [(#12801)](https://github.com/stdlib-js/stdlib/pull/12801) _(by Philipp Burckhardt)_
+-   [`d391b04`](https://github.com/stdlib-js/stdlib/commit/d391b0458eaf0d05c3549414f7d5e8894a86be6d) - **test:** migrate `math/base/special/fmodf` to ULP-based testing [(#12791)](https://github.com/stdlib-js/stdlib/pull/12791) _(by Philipp Burckhardt)_
+-   [`c47223b`](https://github.com/stdlib-js/stdlib/commit/c47223b2050d866afb3dfbca514ff665f3dabcb5) - **test:** migrate `math/base/special/kernel-tanf` to ULP-based testing [(#12793)](https://github.com/stdlib-js/stdlib/pull/12793) _(by Philipp Burckhardt)_
+-   [`63254e7`](https://github.com/stdlib-js/stdlib/commit/63254e70389d0a02d3c39231dbc8bbf98b2cca2c) - **test:** migrate `math/base/special/riemann-zeta` to ULP-based testing [(#12809)](https://github.com/stdlib-js/stdlib/pull/12809) _(by Philipp Burckhardt)_
+-   [`5d9b083`](https://github.com/stdlib-js/stdlib/commit/5d9b083eb17e79057568c9fce7e54a7ee69eb98d) - **test:** migrate `math/base/special/cflipsign` to ULP-based testing [(#12766)](https://github.com/stdlib-js/stdlib/pull/12766) _(by Philipp Burckhardt)_
+-   [`7ba59e3`](https://github.com/stdlib-js/stdlib/commit/7ba59e3216337f690325156dd4cc925902d7dea3) - **test:** migrate `math/base/special/kernel-tan` to ULP-based testing [(#12804)](https://github.com/stdlib-js/stdlib/pull/12804) _(by Philipp Burckhardt)_
+-   [`84de099`](https://github.com/stdlib-js/stdlib/commit/84de099e2699d070bb21beb1b97235580fbd4f74) - **test:** migrate `math/base/special/kernel-sin` to ULP-based testing [(#12797)](https://github.com/stdlib-js/stdlib/pull/12797) _(by Philipp Burckhardt)_
+-   [`2af5ce0`](https://github.com/stdlib-js/stdlib/commit/2af5ce00eb583b3b590bacd45b09bb420265a1e4) - **test:** migrate `math/base/special/pow` to ULP-based testing [(#12803)](https://github.com/stdlib-js/stdlib/pull/12803) _(by Philipp Burckhardt)_
+-   [`90354c5`](https://github.com/stdlib-js/stdlib/commit/90354c50aa09247632c6d662785fc3d5c25668ec) - **test:** migrate `math/base/special/ldexpf` to ULP-based testing [(#12789)](https://github.com/stdlib-js/stdlib/pull/12789) _(by Philipp Burckhardt)_
+-   [`7381dbe`](https://github.com/stdlib-js/stdlib/commit/7381dbe44b30f2e7f165da8f46b4fcab98032a46) - **test:** migrate `math/base/special/dirichlet-eta` to ULP-based testing [(#12750)](https://github.com/stdlib-js/stdlib/pull/12750) _(by Philipp Burckhardt)_
+-   [`532b7d4`](https://github.com/stdlib-js/stdlib/commit/532b7d4ec80242b91aa3e1a3cd97b8b03820ac7c) - **test:** migrate `math/base/special/boxcox1pinv` to ULP-based testing [(#12771)](https://github.com/stdlib-js/stdlib/pull/12771) _(by Philipp Burckhardt)_
+-   [`4d2566e`](https://github.com/stdlib-js/stdlib/commit/4d2566e8dc82848d27569f42ea18cfe7e484038b) - **test:** migrate `math/base/special/floorb` to ULP-based testing [(#12786)](https://github.com/stdlib-js/stdlib/pull/12786) _(by Philipp Burckhardt)_
+-   [`9451158`](https://github.com/stdlib-js/stdlib/commit/94511586863c9641274417bb60f8e9fe38e56166) - **test:** migrate `math/base/special/ceilb` to ULP-based testing [(#12781)](https://github.com/stdlib-js/stdlib/pull/12781) _(by Philipp Burckhardt)_
+-   [`22ab27f`](https://github.com/stdlib-js/stdlib/commit/22ab27f23e10197529bd1f7c785bcd4c33f63a25) - **test:** migrate `math/base/special/erfcx` to ULP-based testing [(#12775)](https://github.com/stdlib-js/stdlib/pull/12775) _(by Philipp Burckhardt)_
+-   [`45d044c`](https://github.com/stdlib-js/stdlib/commit/45d044c4fe51fd49c80669b182b7e17329de74fe) - **test:** migrate `math/base/special/besselj0` to ULP-based testing [(#12778)](https://github.com/stdlib-js/stdlib/pull/12778) _(by Philipp Burckhardt)_
+-   [`75e8a3b`](https://github.com/stdlib-js/stdlib/commit/75e8a3b1357875cb5a8a3bfa55676e64dd06b8d4) - **test:** migrate `math/base/special/sqrt` to ULP-based testing [(#12764)](https://github.com/stdlib-js/stdlib/pull/12764) _(by Philipp Burckhardt)_
+-   [`e2429ce`](https://github.com/stdlib-js/stdlib/commit/e2429ce7c0008989ab10bfbfa22033e8f3957065) - **test:** migrate `math/base/special/asecdf` to ULP-based testing [(#12762)](https://github.com/stdlib-js/stdlib/pull/12762) _(by Philipp Burckhardt)_
+-   [`50cb98f`](https://github.com/stdlib-js/stdlib/commit/50cb98fdeb566088b9f46b15250fda593b9462bf) - **test:** migrate `math/base/special/exp10` to ULP-based testing [(#12779)](https://github.com/stdlib-js/stdlib/pull/12779) _(by Philipp Burckhardt)_
+-   [`e7084f8`](https://github.com/stdlib-js/stdlib/commit/e7084f87773c6c9f20d3305e51cd2e47ff5700a9) - **test:** migrate `math/base/special/ahavercosf` to ULP-based testing [(#12773)](https://github.com/stdlib-js/stdlib/pull/12773) _(by Philipp Burckhardt)_
+-   [`a455c93`](https://github.com/stdlib-js/stdlib/commit/a455c93f91fe2b6c97a830bcb35a01d60150a5bb) - **test:** migrate `math/base/special/erfinv` to ULP-based testing [(#12772)](https://github.com/stdlib-js/stdlib/pull/12772) _(by Philipp Burckhardt)_
+-   [`bd3e64a`](https://github.com/stdlib-js/stdlib/commit/bd3e64ad8ee6bbad3f5870b64f803c7d8b22bb82) - **test:** migrate `math/base/special/acosf` to ULP-based testing [(#12767)](https://github.com/stdlib-js/stdlib/pull/12767) _(by Philipp Burckhardt)_
+-   [`acb54a2`](https://github.com/stdlib-js/stdlib/commit/acb54a2092626fcbb403c6ae68257e9e37e35c77) - **test:** migrate `math/base/special/versin` to ULP-based testing [(#12765)](https://github.com/stdlib-js/stdlib/pull/12765) _(by Philipp Burckhardt)_
+-   [`b798757`](https://github.com/stdlib-js/stdlib/commit/b798757eeae1f5e118f4e9917e9168b00581c13a) - **test:** migrate `math/base/special/log2` to ULP-based testing [(#12763)](https://github.com/stdlib-js/stdlib/pull/12763) _(by Philipp Burckhardt)_
+-   [`967c6f5`](https://github.com/stdlib-js/stdlib/commit/967c6f54046d57012a3cb87c3449075d97c37c71) - **test:** migrate `math/base/special/havercos` to ULP-based testing [(#12768)](https://github.com/stdlib-js/stdlib/pull/12768) _(by Philipp Burckhardt)_
+-   [`9417bf0`](https://github.com/stdlib-js/stdlib/commit/9417bf06de5a4e801304d05a669d25174d318c8f) - **test:** migrate `math/base/special/log10` to ULP-based testing [(#12769)](https://github.com/stdlib-js/stdlib/pull/12769) _(by Philipp Burckhardt)_
+-   [`695ff8f`](https://github.com/stdlib-js/stdlib/commit/695ff8f585317927f3498b79d8c12ae6d8e87bf2) - **test:** migrate `math/base/special/rcbrtf` to ULP-based testing [(#12770)](https://github.com/stdlib-js/stdlib/pull/12770) _(by Philipp Burckhardt)_
+-   [`4012a6e`](https://github.com/stdlib-js/stdlib/commit/4012a6edb89abd723c545839d29e157e4e132424) - **test:** migrate `math/base/special/acovercosf` to ULP-based testing [(#12802)](https://github.com/stdlib-js/stdlib/pull/12802) _(by Philipp Burckhardt)_
+-   [`b113999`](https://github.com/stdlib-js/stdlib/commit/b1139993437c372bef275e75aeea3f03a42ade97) - **test:** migrate `math/base/special/csch` to ULP-based testing [(#12782)](https://github.com/stdlib-js/stdlib/pull/12782) _(by Philipp Burckhardt)_
+-   [`2882708`](https://github.com/stdlib-js/stdlib/commit/2882708f83a601b2e5e72dba0699b900a3e39c23) - **test:** migrate `math/base/special/sqrtf` to ULP-based testing [(#12776)](https://github.com/stdlib-js/stdlib/pull/12776) _(by Philipp Burckhardt)_
+-   [`b41028e`](https://github.com/stdlib-js/stdlib/commit/b41028e5d4b15f2917d5a885573e9203eecf7bec) - **test:** migrate `math/base/special/expm1` to ULP-based testing [(#12774)](https://github.com/stdlib-js/stdlib/pull/12774) _(by Philipp Burckhardt)_
+-   [`44df6fb`](https://github.com/stdlib-js/stdlib/commit/44df6fbfa0b8a8be3cff335724877562b37702b8) - **test:** migrate `math/base/special/ahaversin` to ULP-based testing [(#12777)](https://github.com/stdlib-js/stdlib/pull/12777) _(by Philipp Burckhardt)_
+-   [`f3e5e57`](https://github.com/stdlib-js/stdlib/commit/f3e5e57308e6e3751fe62e82a1a0c80c397aa560) - **test:** migrate `math/base/special/acotd` to ULP-based testing [(#12785)](https://github.com/stdlib-js/stdlib/pull/12785) _(by Philipp Burckhardt)_
+-   [`e5ffd36`](https://github.com/stdlib-js/stdlib/commit/e5ffd36377e4ddf919d987ee4e054f2a8da50a3c) - **test:** migrate `math/base/special/cabs2` to ULP-based testing [(#12780)](https://github.com/stdlib-js/stdlib/pull/12780) _(by Philipp Burckhardt)_
+-   [`e26cf47`](https://github.com/stdlib-js/stdlib/commit/e26cf47203595768931cfdad4f9f4dde855eef99) - **test:** migrate `math/base/special/avercos` to ULP-based testing [(#12783)](https://github.com/stdlib-js/stdlib/pull/12783) _(by Philipp Burckhardt)_
+-   [`32127ce`](https://github.com/stdlib-js/stdlib/commit/32127ce8f1b5887364ea7fe5e27463c34522ddbd) - **test:** migrate `math/base/special/cosm1` to ULP-based testing [(#12788)](https://github.com/stdlib-js/stdlib/pull/12788) _(by Philipp Burckhardt)_
+-   [`0f4c41b`](https://github.com/stdlib-js/stdlib/commit/0f4c41b7fcde6b6e0afe727d3cf0bbf09a755e1b) - **test:** migrate `math/base/special/rcbrt` to ULP-based testing [(#12784)](https://github.com/stdlib-js/stdlib/pull/12784) _(by Philipp Burckhardt)_
+-   [`a4b28cc`](https://github.com/stdlib-js/stdlib/commit/a4b28cc26cc70988be20f6158f00c74102e10617) - **test:** migrate `math/base/special/rsqrtf` to ULP-based testing [(#12790)](https://github.com/stdlib-js/stdlib/pull/12790) _(by Philipp Burckhardt)_
+-   [`cb649ce`](https://github.com/stdlib-js/stdlib/commit/cb649cecbd469b51a6deea0335f86897b82d25b4) - **test:** migrate `math/base/special/rad2deg` to ULP-based testing [(#12787)](https://github.com/stdlib-js/stdlib/pull/12787) _(by Philipp Burckhardt)_
+-   [`beb99eb`](https://github.com/stdlib-js/stdlib/commit/beb99ebe2963477062fb98823c726920a3e4f0a7) - **test:** migrate `math/base/special/deg2radf` to ULP-based testing [(#12792)](https://github.com/stdlib-js/stdlib/pull/12792) _(by Philipp Burckhardt)_
+-   [`384099f`](https://github.com/stdlib-js/stdlib/commit/384099f7cd7c64cd130c9770b56808edb8402d4c) - **test:** migrate `math/base/special/acoversin` to ULP-based testing [(#12800)](https://github.com/stdlib-js/stdlib/pull/12800) _(by Philipp Burckhardt)_
+-   [`1d7996c`](https://github.com/stdlib-js/stdlib/commit/1d7996cf36ffa7f2d6a1503b92e79a34f0b0d738) - **test:** migrate `math/base/special/atanf` to ULP-based testing [(#12795)](https://github.com/stdlib-js/stdlib/pull/12795) _(by Philipp Burckhardt)_
+-   [`4325ed9`](https://github.com/stdlib-js/stdlib/commit/4325ed97064a79b2c58334d6a905221e321a8315) - **test:** migrate `math/base/special/vercos` to ULP-based testing [(#12794)](https://github.com/stdlib-js/stdlib/pull/12794) _(by Philipp Burckhardt)_
+-   [`48d12e3`](https://github.com/stdlib-js/stdlib/commit/48d12e3da4c0772ab351ee9081af774098148e93) - **test:** migrate `math/base/special/logit` to ULP-based testing [(#12796)](https://github.com/stdlib-js/stdlib/pull/12796) _(by Philipp Burckhardt)_
+-   [`deef5b8`](https://github.com/stdlib-js/stdlib/commit/deef5b87a2cc2deb0f4214079f5f33aaec3f19fc) - **test:** migrate `math/base/special/hypotf` to ULP-based testing [(#12808)](https://github.com/stdlib-js/stdlib/pull/12808) _(by Philipp Burckhardt)_
+-   [`f9a5774`](https://github.com/stdlib-js/stdlib/commit/f9a5774fa77e47af1a0e9e3247370ade4f48c4a2) - **test:** migrate `math/base/special/ahaversinf` to ULP-based testing [(#12798)](https://github.com/stdlib-js/stdlib/pull/12798) _(by Philipp Burckhardt)_
+-   [`647af12`](https://github.com/stdlib-js/stdlib/commit/647af120eb7cbc6b25ba6c4b9a6c1382fd1cce8f) - **test:** migrate `math/base/special/atand` to ULP-based testing [(#12799)](https://github.com/stdlib-js/stdlib/pull/12799) _(by Philipp Burckhardt)_
+-   [`a43d452`](https://github.com/stdlib-js/stdlib/commit/a43d452f11e16724d9e8f61244a0c5a8a024dc41) - **test:** migrate `math/base/special/cabs2f` to ULP-based testing [(#12805)](https://github.com/stdlib-js/stdlib/pull/12805) _(by Philipp Burckhardt)_
+-   [`ee6dfaf`](https://github.com/stdlib-js/stdlib/commit/ee6dfaf23de9936002f36a3ddb63ebab40bab512) - **test:** migrate `math/base/special/cbrt` to ULP-based testing [(#12806)](https://github.com/stdlib-js/stdlib/pull/12806) _(by Philipp Burckhardt)_
+-   [`9831204`](https://github.com/stdlib-js/stdlib/commit/9831204751da827a102cfe0dcf39e77817c3a7b3) - **test:** migrate `math/base/special/hacoversin` to ULP-based testing [(#12807)](https://github.com/stdlib-js/stdlib/pull/12807) _(by Philipp Burckhardt)_
+-   [`f8f63e9`](https://github.com/stdlib-js/stdlib/commit/f8f63e9fe84806760f3a2195645881e963fa5373) - **test:** migrate `math/base/special/sinh` to ULP-based testing [(#12811)](https://github.com/stdlib-js/stdlib/pull/12811) _(by Philipp Burckhardt)_
+-   [`e663e10`](https://github.com/stdlib-js/stdlib/commit/e663e10bace9aec32d25e3dd8eebafe6b122deb4) - **docs:** update namespace table of contents [(#12915)](https://github.com/stdlib-js/stdlib/pull/12915) _(by stdlib-bot)_
+-   [`e2252d0`](https://github.com/stdlib-js/stdlib/commit/e2252d09681ac8da6b8b99f7feef507d98b1e0c7) - **docs:** update `math/base/assert` TypeScript declarations [(#12914)](https://github.com/stdlib-js/stdlib/pull/12914) _(by stdlib-bot)_
 -   [`00cb1cb`](https://github.com/stdlib-js/stdlib/commit/00cb1cb3bc4d47706ba916d6c76c3155df1a040b) - **docs:** update descriptions [(#12854)](https://github.com/stdlib-js/stdlib/pull/12854) _(by Philipp Burckhardt)_
 -   [`6b79aec`](https://github.com/stdlib-js/stdlib/commit/6b79aece2b82996d0fcf00ca8f670fb5e466fd0f) - **test:** migrate `math/base/special/ceiln` to ULP-based testing [(#12751)](https://github.com/stdlib-js/stdlib/pull/12751) _(by Philipp Burckhardt)_
 -   [`8117e16`](https://github.com/stdlib-js/stdlib/commit/8117e16e8d95a4362c78c02fc858a5085321f665) - **test:** migrate `math/base/special/haversin` to ULP-based testing [(#12752)](https://github.com/stdlib-js/stdlib/pull/12752) _(by Philipp Burckhardt)_
@@ -190,10 +320,13 @@ A total of 12 issues were closed in this release:
 
 ### Contributors
 
-A total of 28 people contributed to this release. Thank you to the following contributors:
+A total of 37 people contributed to this release. Thank you to the following contributors:
 
+-   A Sivasubramanian Manoj
+-   Akanksha Kumari
 -   Akshit Jain
 -   Anurag Pappula
+-   Arjan-P
 -   Athan Reines
 -   AyushiJain18270
 -   Baixiaochun
@@ -201,6 +334,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 -   Bhumika Sudarshani
 -   Egger
 -   Gautam Kaushik
+-   Gunj Joshi
 -   Kamal Singh Rautela
 -   Karan Anand
 -   Lokesh Ranjan
@@ -209,6 +343,8 @@ A total of 28 people contributed to this release. Thank you to the following con
 -   Moh Zaid Khan
 -   Neeraj Pathak
 -   Nirmal Jyoti Biswas
+-   NotFoundOvO
+-   Om-A-osc
 -   Partha Das
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
@@ -216,9 +352,12 @@ A total of 28 people contributed to this release. Thank you to the following con
 -   Shantanu Kharwar
 -   Shubham
 -   Syed Ishmum Ahnaf
+-   Ujjwal Verma
 -   Vishal Gaikwad
 -   alok chando
 -   anee3
+-   fiboNacci1163
+-   jichenggepeter-dev
 -   travisBREAKS
 
 </section>
